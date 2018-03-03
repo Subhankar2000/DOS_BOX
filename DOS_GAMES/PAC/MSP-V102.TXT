@@ -1,0 +1,159 @@
+V1.02B Jan 1997 - Minor upgrade & bug fix
+
+ .  Demo mode sounds can be turned on/off.
+
+ .  Bug fix, HA ! Put the wrong eating dot sample in.. oops we all make
+    mistakes.
+
+V1.02A Jan 1997 - Minor upgrade & bug fix
+
+ .  Bug fix, Audio detect routine changed slightly.
+
+ .  Bug fix, Ghosts reverse direction correctly (!) after a power
+    pill is eaten.
+
+V1.02 Dec 1996 - Minor upgrade & bug fix
+
+ .  Bug fix, new joystick routines. Designed to work more accurately
+    with Gravis game pad. Should work better with all joysticks.
+
+ .  Bug fix, colour of dots on the 5th maze should be cyan.
+
+ .  Bug fix, after eating a power pill, then eating a ghosts the
+    eyes should start moving in the same direction as the ghost
+    was moving before the power pill was eaten.
+
+ .  Bug fix, oops I used a signed integer to store the size of expanded
+    memory available. Should have been an unsigned int. Causes problems
+    when you have more than 32Meg available in XMS.
+
+New Additions
+
+ .  New samples of dots being eaten, much more 'authentic' sound.
+
+ .  New joystick calibration routines.
+
+ .  New joystick sensitivity setting on 'Config' screen.
+
+
+
+V1.01 Feb 16th 1996 - Several improvements & minor bug fixes
+
+Bug fixes
+ 
+ .  Bug fix, ghost priorities Blinky appears always on top, followed by
+    Pinky, Inky & Sue.
+
+ .  Bug fix, collision detect turned off after last dot eaten, caused
+    a problem if the last dot eaten was a power pill and a ghost was
+    on top of it. You would get 200 points.
+
+ .  Bug fix. On release of extended memory, an attempt could be made to 
+    release extended memory even if it wasn't allocated. This only occured 
+    when sound was disabled.
+
+ .  Bug fix. Bottom line of screen was incorrectly drawn, a 1 pixel line 
+    was missed off the fruit. Noticable on the Pretzel.
+
+ .  Bug fix, when MsP is eaten by ghost, dying animation takes as long
+    as the dying sound.
+
+ .  Bug fix, Inky was leaving pit before Pinky.
+ 
+ .  Bug fix, ghost eyes at level start now face correct direction.
+ 
+ .  Bug fix, ghosts on level one can't catch MsP even if she's slowed
+    down by eating dots.
+  
+ .  Bug fix, letter 'E' removed from ghosts names.
+
+ .  Bug fix, ghosts eyes move back to their respective corners in
+    the central pit, or to the center for Blinky & Pinky.
+
+ .  Bug fix, ghosts reverse at 7, or 5 seconds, and again 20 seconds later.
+
+ .  Bug fix, ghost eyes can reverse direction. If ghost eyes are returning
+    to the 'pit' when counter hits zero, the ghosts and eyes will make a 
+    direction change.
+
+
+New Additions
+
+ .  New messages on detecting soundcard, also some more error checking
+    if a problem with the soundcard is detected.
+
+ .  New samples made of background siren, powerup and extra life 'ping'.
+    original siren sound was a bit rough.
+
+ .  Extra life sound is 10 'pings' long.
+
+ .  Fruits movement speed around the maze slowed down a fraction. 
+
+ .  Hidden 'cheat' mode type in the password when the game is playing and
+    press enter, the MsPac's at the bottom of the screen will change to
+    face upwards !  The following keys then do the following things... 
+    F1 - Advance level, F2 - Add a life  F3 - Start a fruit bouncing on
+    ( if there isn't a fruit or fruit's score already there )
+
+ .  Ghost timings leaving 'pit' corrected.
+
+ .  Collision detect between a ghost and MsP changed, the ghost has to 
+    cover more of MsP for collision to be detected and a life lost.
+
+ .  Ghosts flash time is independant of the speed of a ghost.
+
+ .  Ghost frightened times corrected to 6/5/4/3/2/1/0 seconds.
+    A zero second ghost just immediately changes direction.
+
+ .  Ghosts Flash 5 times before changing, if they've got enough time 
+    before they turn back, and speed of flash is slower.
+
+ .  Ghost flash for 2 seconds maximum, flash white 5 times only.
+    They change back to regular colour after the last white flash.
+
+ .  Ghost flash times corrected on levels.
+
+ .  Ghosts are fightened for ZERO seconds on levels higher than 17.
+
+ .  Configure screen now allows changing the start number of lives
+
+ .  Configure screen now allows starting level from 1 to 29
+ 
+ .  'GAME OVER' - now coloured red.
+
+ .  MsPac speeds up a fraction when ghosts are flashing.
+
+ .  Ghosts don't slow down in the tunnels on level 4 or above.
+
+ .  MsPac is left on the screen when completed level flashes.
+
+ .  Ghosts STOP moving when another is eaten, including their sprites.
+
+ .  Length of time a fruit's value is displayed after eating is shorter.
+
+ .  'PLAYER ONE' not displayed on 'GAME OVER' if only a 1 player game.
+
+ .  New directions for Blinky to follow at game start.
+
+ .  Some fruit sprites were reversed, the banana now faces the right way !!
+
+ .  Powerup sounds don't restart when another power pill is eaten.
+
+ .  Powerup sound restarts when a ghosts eyes return to the maze.
+    While returning eyes make the whoop-whoop sound. The 'whoop-whoop'
+    sound does not start until the eyes are returning to the maze
+    after the 'eat ghost' sound ends, the sound stops once the eyes
+    return to the maze and the powerup sound restarts.
+
+ .  Eating of 64 then 176 dots starts a fruit bouncing onto the screen.
+
+ .  Amazing, you've read this far. Ok the cheat code is to type
+    eggs <and press enter> when the game is in play. F1/f2/f3 do
+    cheat 'things'.
+
+ .  Eating 180, 212 and 228 dots increases pitch of background siren.
+
+ .  If MsPac is eaten while ghosts are flashing, the ghosts will
+    stop flashing ie. they're colour freezes.
+
+

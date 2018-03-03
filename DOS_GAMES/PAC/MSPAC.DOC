@@ -1,0 +1,287 @@
+MS-PAC PC v1.02A Dec 1996
+=============================
+
+Contents:
+
+ 1. System Requirements
+ 2. Running the Game
+ 3. Game Instructions
+ 4. Controls & Keys
+ 
+ 5. Soundcard Support    <- READ THIS !!!
+ 6. Video Mode Support   <- READ THIS !!!
+
+ 7. New 'Config' Screen Options
+ 8. About the Game & Author
+ 9. Thanks
+10. Interesting Web Sites to visit.
+11. Release Histoty/What's New
+
+
+
+1. System Requirements
+----------------------
+
+386-33 with local bus video ( minimum )
+
+It is at its best running on a 486-33, or better, with local bus
+video ( VESA or PCI ).
+
+1 Meg of extended Memory ( if you want sound )
+Sound Blaster Pro, or compatible, soundcard.
+Multi-sync monitor for the full screen mode.
+                                            
+Note: This game won't run on a 286.
+
+Note: You will need 1Meg of extended memory so make sure you have
+      HIMEM.SYS or someother XMS manager loaded in you config.sys.
+
+
+
+2. Running the Game
+-------------------
+
+At the DOS prompt type
+
+mspac
+    then hit enter
+
+or if you want to run the full screen mode and your monitor can
+take it ( READ SECTION 5 !!)  type
+
+mspac F 
+   then hit enter
+
+
+
+ 
+3. Game Instructions
+--------------------
+
+Eat the dots and avoid the ghosts, eat a flashing power pill then chase and 
+eat the ghosts. Also eat any bouncing fruit for extra points. That's about 
+all there is too it really. 
+
+Eating a '.' is worth 10 points, power pills 50 points. 
+Ghosts score 200,400,800,1600 eaten in order.
+
+Extra lives at 10000pts, 30000pts, 50000pts, 80000 pts
+then every 30000 after that.
+
+Fruit are worth various points, fruit appears in sequence until all the fruit 
+has appeared. Then a random fruit may bounce out into the maze.
+
+
+
+4. Controls & Keys
+------------------
+
+Arrow keys, or
+'A' - Up 
+'Z' - Down 
+'N' - Left 
+'M' - Right
+
+'P' - Pause
+'Q' - Sound On/Off
+
+
+On the title screens, press 
+
+'A' for info about the game,
+
+'J' to calibrate and use a joystick
+
+'C' to turn sound on/off, set full screen mode and to turn of
+    the FAST option. There was an upgrade for MsPacMan that made
+    her move about twice as fast as the ghosts, this gives the
+    same results. See section 7 for details.
+
+ESC - Quits current game or exits program
+
+
+5. Soundcard Support
+--------------------
+
+This game only supports Soundblaster Pro or better soundcards. It should work
+with compatibles but I haven't tested it with many.
+
+To allow sound in the game you need to set the DOS 'blaster' variable. 
+If you  have a soundblaster Pro, or better, this should be done already 
+in your autoexec.bat. 
+If you don't set the blaster variable but have a SB-Pro  compatible card, 
+eg. Zeos integrated business audio using the ESS chip ( is that an obscure 
+soundcard or what?) you need to do the following at the DOS command prompt
+
+set blaster=A220 I5 D1 
+
+Where :
+A is the port your card uses, usually port 220.
+I is the interrupt the card uses, usually 5 but it could be 7.
+D is the DMA channel to use, usually 1 could be 3.
+
+There are immediate plans to support any other soundcards or the PC's 
+internal buzzer. However I like the look of these new Interwave based
+cards so I might get one of those and support it in the future.
+
+
+
+6. Video Mode Support
+---------------------
+
+This is really important !! 
+
+MsPacPC supports a full screen mode, this uses a vertical resolution of 288 
+pixels and horizontal resolution of 224 pixels, just like the old arcade 
+machine ! This mode only really works on 'newer' multi-sync monitors 
+( eg. CTX 1765/1545 ). 
+
+By default MsPacPC runs in a compatible mode, 320x200 pixels and the screen 
+scrolls up and down. To run in its full glory run with the command line 
+option F  ie.  MSPAC F
+
+If your screen blanks or the picture goes crazy it probably means that your 
+monitor can't run the full screen mode, so just hit escape and run with the 
+compatible mode.
+
+Also you can configure the video mode from the 'Config' screen within MsPacPc. 
+Just hit 'C' on one of the title screens.
+
+
+
+7. New 'Config' Screen Options
+------------------------------
+
+From the main title pressing 'C' takes you to the 'Config' screen
+here you can make MsPac move double her speed, turn audio on/off and
+Change the video mode.
+
+Two new features have been added also
+
+Number of Lives:
+'N' will change number of lives you can play with from 1 to 5.
+
+Begin Level:
+'B' changes the beginning level from 1 to 30. The game plays
+pretty much the same after level 21 with mazes 3 & 4 repeating
+with different colours. So you don't need to go higher than 29.
+Carry on pressing 'B' as after level 30 is goes back to 1.
+
+Joystick Sensitivity:
+'T' changes how sensitive the program is to joystick movements. Values range
+from 3 to 14. Default is 5. 
+
+What this controls is how much you need to move the joystick in a particular 
+direction for the movement to be registers. Setting this value to the 
+maximum, 14, would mean to move up you would need to push the joystick all 
+the way to the top. Lower values would mean you didn't have to push so far
+up for the movement to be detected.
+
+
+ 
+8. About the Game & Author
+--------------------------
+
+Welcome to release 1.02 of MsPacPc, this is a more minor update to MsPacPc 
+which fixes a few bugs and improves joystick support. It would have been 
+released a few weeks ago but a trip to England and the flu kinda got in
+the way. Oh, can't forget finishing the update for PacPc now v2.00 and
+a lot better.
+             
+This game has been in development since June 1995, which was when I completed 
+PacPc. It's been and on/off process as pressures of work, visiting England 
+and going on holiday have almost all taken priority, the first release came
+out in Dec 1995 and the first update in Feb 1996.
+
+I've tried to keep the 'feel' of the game as close to the original as 
+possible, playing the arcade machine next to PacPc the differences aren't to 
+hard to stomache, and if they are buy an arcade machine. I've tried to keep 
+the ghosts movements close to the original and you'll find their characters 
+are much the same, Sue will sort of 'gravitate' to the area of the maze you 
+are in, Blinky will just come straight at you, Pinky can take a 'round about' 
+way to find you and Inky is pretty much like Blinky.
+
+This time I put in all the fruit, and all the little intro sequences, I got a
+lot of feedback from PacPc with folk saying. "Wasn't there more fruit ?"
+or "Where's the second intro screen".
+
+The game was written in 'C', with assembly routines for sound, sprite 
+graphics, joystick, drawing characters on the screen that sort of thing, and 
+was coded on, in turn, a Zeos pentium 90, a Zeos pentium 100 ( in fact a 90 
+clocked at 100 ) a DEC 486-dx2-66 with a little work on a Zeos P120 running 
+winslows 95. Please don't mail me asking for the source code, I won't
+be releasing it.
+
+The custom video mode uses a 'tweaked' mode 13h to give a resolution of 288 
+by 224, all sprites are on a 16x16 matrix. Sound was improved and now uses 
+16kHz 8 bit samples, all 'borrowed' from the original machine. I also wrote 
+a interrupt driven keyboard driver, that should ( hopefully ) stop any 
+keyboard problems that some have experienced with PacPc.
+
+One thing is that you'll need a card with a decent video bandwidth, just 
+about anything VLB/PCI will do, a regular old ISA card probably won't 
+hack it.
+
+I might do some updates, if it really needs it. But I'm not going to be
+adding support for any other soundcards, sorry folks.
+
+This game is freeware, you don't have to register/pay/contribute or whatever, 
+it's free !! Now who said "There ain't no such thing as a free lunch...". 
+This game is 'as is' and comes with no warranty either specific or implied, 
+you are quite free to distribute it, copy it or eat it, whatever you want to 
+do. You should not, however, charge for it. Selling this game for profit, 
+rather than a duplication fee, will result in really bad Karma, and depending 
+on your religious persuasion may result in eternal damnation, or at least
+a couple of centuries in purgatory.
+
+If you have any comments you can reach me via internet e-mail at
+        jrokweb@san.rr.com
+
+
+
+
+
+9. Thanks
+---------
+
+Thanks must go to all those who've I've discussed the game with and 
+have done any sort of testing with it. These include, Kim Voegele,
+Lee Tonks, Marshall Stowe Sloane, Si Owen, Nadeem Ahktar, Kev
+Cheung plus anyone else I've forgotten (sorry!).
+Special thanks go to Dave Hallock for Beta testing v1.01 above
+and beyond the call of duty.
+
+
+10.Interesting Web Sites to visit.
+----------------------------------
+
+Yahoo's list of classic arcade game stuff
+http://www.yahoo.com/Recreation/Games/Video_Games/Classic_Arcade_Games/
+
+The Pac Page.
+http://www4.ncsu.edu/eos/users/m/msstowe/WWW/Pac-Man/pac-man.html
+
+Matt Cooley's Game World
+http://www4.ncsu.edu/unity/users/m/mvcooley/index.html
+
+
+The Home of PacPC games & PC*Bert
+
+http://www.jrok.com
+
+
+11. What's New/Release History
+------------------------------
+
+See file MSP-v102.txt
+
+V1.02A Jan 1st 1996 - Fix to audio detect and ghost reverse bug fix.
+
+V1.02 Dec 24th 1996 - Minor bug fixes & new joystick routines
+
+V1.01 Feb 16th 1996 - Several improvements & minor bug fixes
+
+V1.0  Dec 22nd 1995 - The original release version
+
+
+See MSP-V102.TXT for details of bugfixes and additions.

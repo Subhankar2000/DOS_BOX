@@ -1,0 +1,356 @@
+#
+# $Header:   S:/pctcp.dos/vcs/tsr/vxdpctcp/src/kernel.msv   1.19   12 Oct 1995 19:12:04   kmh  $
+#
+
+########################################################
+# VXDINIT messages - common part - (10001 - 10999):    #
+########################################################
+#Msg_Kernel_Not_Found
+$$10001"
+VXDINIT ERROR: The VXDPCTCP.386 (TCP/IP kernel VxD) is not found.
+"
+
+#Msg_NDIS3_Not_Found
+$$10002"
+VXDINIT ERROR: The ND3HLP.386 (NDIS 3 VxD) is not found.
+"
+
+#Msg_Dup
+$$10003"
+VXDINIT ERROR: VXDINIT is already loaded.
+
+"
+#Msg_Dup_Kernel
+$$10004"
+VXDINIT ERROR: The PC/TCP TSR kernel is already loaded.
+      Use inet unload to unload the PC/TCP TSR kernel before you proceed.
+"
+#Msg_Idrive
+$$10005"
+VXDINIT WARNING: InterDrive VxD initialization failed.
+      Enter  ""vxdinit +i +t""  for a detailed list of messages.
+"
+#Msg_Nbep
+$$10006"
+VXDINIT WARNING:  NetBIOS VxD initialization failed.
+      Enter ""vxdinit +n +t""   for a detailed list of messages.
+"
+
+#Msg_Nfsd
+$$10007"
+VXDINIT WARNING: NFSD VxD initialization failed.
+      Enter ""vxdinit +n +t""   for a detailed list of messages.
+
+"
+
+#Msg_Kernel
+$$10008"
+VXDINIT ERROR: Kernel VxD initialization failed.
+      Enter ""vxdinit +t"" for a detailed list of messages.
+"
+
+#Msg_OK
+$$10009"
+VXDINIT is successfully loaded.
+"
+
+#Msg_No_Vxdldr
+$$10010"
+VXDINIT ERROR: VXDINIT was not loaded.
+"
+
+#Msg_Cant_Unload
+$$10011"
+VXDINIT ERROR: VXDINIT cannot be unloaded at this time.
+"
+#Msg_Unloaded
+$$10012"
+VXDINIT is now unloaded.
+"
+
+#Msg_NDIS3
+$$10013"
+VXDINIT ERROR: NDIS 3 initialization failed.
+VxD NDIS 3 will not be invoked.
+"
+
+$$10014"
+VXDINIT WARNING: The VIDRIVE.386 (InterDrive VxD) is not found.
+                 InterDrive VxD will not be loaded.
+"
+
+$$10015"
+VXDINIT WARNING: The VNBEP.386 (NetBIOS VxD) is not found.
+                 NetBIOS VxD will not be loaded.
+"
+
+
+$$10016"
+VXDINIT WARNING: The VNFSD.386 (NFS Server VxD) is not found.
+                 NFSD VxD will not be loaded.
+"
+
+
+# demo version:
+$$10017"
+
+This EVALUATION COPY has not been properly installed. Please reinstall.
+
+"
+
+# demo version (demo period has expired:
+$$10018"
+
+****************************************************************************
+* Kernel failed to load because your 30-day evaluation period has expired. *
+* If you would like to license a copy of this software,                    *
+* contact your FTP Software sales representative to order.                 *
+****************************************************************************
+
+"
+
+# demo-key is good and today date is within it. print evaluation message:
+$$10019"
+
+*******************************************************************
+* 30 DAY EVALUATION COPY.  AFTER 30 DAYS, YOUR ACCESS WILL CEASE. *
+*******************************************************************
+
+"
+
+$$10020"
+"
+
+$$10021"
+"
+
+$$10022"
+"
+
+# the messages #10023 & 10024 are really one message: (Ready-To-Translate:)
+# <msg10023><path><msg10024>
+$$10023"VXDINIT:  VIDRIVE  will be loaded from "
+$$10024"
+"
+
+# the messages #10025 & 10026 are really one message: (Ready-To-Translate:)
+# <msg10025><path><msg10026>
+$$10025"VXDINIT:  VNBEP	   will be loaded from "
+$$10026"
+"
+
+# the messages #10027 & 10028 are really one message: (Ready-To-Translate:)
+# <msg10027><path><msg10028>
+$$10027"VXDINIT:  VNFSD	   will be loaded from "
+$$10028"
+"
+
+# the messages #10029 & 10030 are really one message: (Ready-To-Translate:)
+# <msg10029><path><msg10030>
+$$10029" "
+$$10030"
+"
+
+# the messages #10031 & 10032 are really one message: (Ready-To-Translate:)
+# <msg10031><path><msg10032>
+$$10031"VXDINIT:  VXDPCTCP will be loaded from "
+$$10032"
+"
+
+# the messages #10033 & 10034 are really one message: (Ready-To-Translate:)
+# <msg10033><path><msg10034>
+$$10033"VXDINIT:  ND3HLP   will be loaded from "
+$$10034"
+"
+
+# the messages #10035 & 10036 are really one message: (Ready-To-Translate:)
+# <msg10035><version><msg10036>
+$$10035"VXDINIT "
+$$10036"is in trace mode.
+"
+
+# special vxdinit for RemoteOffice 
+$$10037"
+VXDINIT Error: This software is only licensed to be used with Remote Office.
+"
+
+# the messages #10033 & 10034 are really one message: (Ready-To-Translate:)
+# <msg10038><path><msg10039>
+$$10038"VXDINIT:  VXDLW    will be loaded from "
+$$10039"
+"
+
+$$10040"
+VXDINIT WARNING: The VXDLW.386 (for IPTrace) is not found.
+                 VxDLW will not be loaded.
+"
+
+$$10041"
+VXDINIT WARNING: The VDHCP.386 is not found.
+                 VDHCP will not be loaded.
+"
+
+# the messages #10042 & 10043 are really one message: (Ready-To-Translate:)
+# <msg10042><path><msg10043>
+$$10042"VXDINIT:  VDHCP    will be loaded from "
+$$10043"
+"
+
+########################################################
+# VXDINIT messages - VxD kernel part (20001 - ...) :   #
+########################################################
+$$20001"
+VXDPCTCP ERROR: The Network Adapter Driver is not loaded.
+Please load the appropriate Driver.
+"
+$$20002"
+VXDPCTCP ERROR: PCTCP.INI configuration file (or [pctcp kernel]
+or [pctcp general] sections) not found.
+"
+$$20003"
+VXDPCTCP WARNING: You have configured a default IP TTL value of less than 64.
+The configured value may cause problems if you are connected to the
+internet!  Please see 'Getting Started' for details.
+"
+$$20004"
+VXDPCTCP ERROR: Entry 'interface' is not found in the [pctcp kernel] section
+of the PCTCP.INI configuration file.
+"
+$$20005"
+VXDPCTCP ERROR: The interface specified in the [pctcp kernel] section is not
+found in the PCTCP.INI configuration file.
+"
+$$20006"
+VXDPCTCP ERROR: The IP address for the interface specified in the
+[pctcp kernel] section is not found in the PCTCP.INI configuration file.
+"
+$$20007"
+VXDPCTCP ERROR: The subnet mask for the interface specified in the
+[pctcp kernel] section is not found in the PCTCP.INI configuration file.
+"
+$$20008"
+VXDPCTCP ERROR: Interface type for the interface specified in the
+[pctcp kernel] section is wrong or not found in the PCTCP.INI configuration
+file.
+"
+$$20009"
+VXDPCTCP ERROR: Error when parsing the TOS (IP Type Of Service) or
+IP security option.
+"
+$$20010"
+VXDPCTCP ERROR: Invalid serial number pair in the [pctcp kernel] section of
+your PCTCP.INI configuration file.
+"
+$$20011"
+VXDPCTCP ERROR: The frame type for the interface specified in the [pctcp
+kernel] section is wrong or not found in the PCTCP.INI configuration file.
+"
+$$20012"
+VXDPCTCP ERROR: The bserver entry for the interface specified in the [pctcp
+kernel] section is wrong or not found in the PCTCP.INI configuration file.
+"
+$$20013"
+VXDPCTCP ERROR: PC/TCP requires Banyan VINES version 2.10 or greater.
+Please load Banyan VINES driver version 2.10 or greater and run vxdinit again.
+"
+$$20014"
+VXDPCTCP ERROR: Banyan VINES communication service is not installed.
+"
+$$20015"
+VXDPCTCP ERROR: The Banyan VINES driver is not loaded.
+Please load Banyan VINES driver first.
+"
+$$20016"
+VXDPCTCP ERROR: The Packet Driver is not loaded.
+Please load Packet Driver first.
+"
+$$20017"
+VXDPCTCP ERROR: Adapter Support Interface (ASI) for Token-Ring is not loaded.
+Please load Adapter Support Interface first.
+"
+# the messages #20018 & 20019 are really one message: (Ready-To-Translate:)
+# <msg20018><name_of_frame_type><msg20019>
+$$20018"
+The default frame type is "
+$$20019".
+"
+
+$$20020"VXDINIT ERROR: Found unsupported Packet Driver.
+This class of Packet Driver is not supported by PC/TCP kernel.
+Please load the supported Packet Driver and run vxdinit again.
+"
+$$20021"
+VXDPCTCP WARNING: The total number of TCP and UDP connections exceeds
+available in the VXD kernel.
+"
+# the messages #20022 & 20023 are really one message: (Ready-To-Translate:)
+# <msg20022><num_of_udp_conn><msg20023>
+$$20022"
+VXDPCTCP WARNING: The number of UDP connections is reduced to "
+$$20023".
+"
+
+# the messages #20024 & 20025 are really one message: (Ready-To-Translate:)
+# <msg20024><num_of_tcp_conn><msg20025>
+$$20024"
+VXDPCTCP WARNING: The number of TCP connections is reduced to "
+$$20025".
+"
+
+# the messages #20026 & 20027 are really one message: (Ready-To-Translate:)
+# <msg20026><vector><msg20027>
+$$20026"
+VXDPCTCP ERROR: The Driver and the Kernel vectors are identical: 0x"
+$$20027".
+"
+
+$$20028"
+Please change 'kernel-int=' entry in [pctcp kernel] section
+of the PCTCP.INI configuration file.
+"
+
+$$20029"
+Please add 'kernel-int=' entry in [pctcp kernel] section
+of the PCTCP.INI configuration file.
+"
+
+$$20030"
+Please add 'serial-int=' entry in [pctcp vxdinit] section
+of the PCTCP.INI configuration file.
+"
+
+$$20031"
+The interrupt number conflict:
+Please modify one of the following entries in the PCTCP.INI
+configuration file:
+'serial-int=' entry in [pctcp vxdinit] section
+or 'kernel-int=' entry in [pctcp kernel] section
+"
+
+$$20032"
+The interrupt number conflict:
+Please modify the 'serial-int' entry in [pctcp vxdinit] section of the 
+PCTCP.INI configuration file.
+"
+
+$$20033"
+VXDINIT WARNING: You have a Paket Driver for serial line support loaded.
+		 It is not needed. You can unload it to free extra memory.
+"
+$$20034"
+		 You will need to specify "frame-type" in PCTCP.INI file then.
+"
+$$20035"
+VXDPCTCP ERROR:You have two SERIAL or two LAN interfaces specified in the
+	       PCTCP.INI configuration file. Please, change the configuration.
+"
+
+"
+$$20036"
+VXDPCTCP ERROR:Your LAN interface is not supported with multihomed 
+	       configuration specified in the PCTCP.INI configuration file.
+	       Please, change the configuration.
+"
+$$20037"
+VXDPCTCP WARNING: Only one interface will be loaded.
+"

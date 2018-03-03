@@ -1,0 +1,190 @@
+    ------------------------------------------------------------
+             README for Microsoft Outlook(TM) Express 5
+                  For Windows 3.x/Windows NT 3.51
+                           January l999
+    ------------------------------------------------------------
+
+               (c) Copyright Microsoft Corporation, 1999
+
+
+This document provides complementary or late-breaking information 
+to supplement the documentation.
+
+
+------------------------
+HOW TO USE THIS DOCUMENT
+------------------------
+
+To view Msimn.txt on screen in Notepad, maximize the Notepad window.
+
+To print Msimn.txt, open it in Notepad or another word processor,
+and then use the Print command on the File menu.
+
+
+CONTENTS
+========
+
+MICROSOFT OUTLOOK EXPRESS
+
+KNOWN ISSUES IN THIS RELEASE
+
+TROUBLESHOOTING
+
+TIPS AND TRICKS
+
+SUPPORT FOR MICROSOFT OUTLOOK EXPRESS
+
+
+MICROSOFT OUTLOOK EXPRESS
+=========================
+
+Outlook Express Mail is an Internet standards based e-mail and news
+reader.
+ 
+To read e-mail with Outlook Express, you must be using an e-mail system
+that uses SMTP, IMAP, and POP3 protocols. At this time, you cannot use 
+Microsoft Outlook Express to access your e-mail account with any of 
+the following services:
+
+  MS Mail
+  cc:Mail
+  The Microsoft Network (MSN), with the exception of the MSN "Metro"
+   (MSN 2.5) beta release
+  CompuServe
+  America OnLine (AOL)
+  Microsoft Exchange Server prior to version 5
+  HOTMail
+
+If you don't know whether your system uses these services, contact your
+administrator or your Internet service provider (ISP) and ask if they
+support SMTP/POP3 e-mail clients.
+
+
+KNOWN ISSUES IN THIS RELEASE
+============================
+
+- When receiving a message using a GeoCities e-mail account, you might 
+  be unable to view any of the original message, or you may see only 
+  the following:  "Postage Paid by... [graphic]."  
+
+- You will not be able to see embedded objects or images sent from
+  people using Microsoft Outlook, Microsoft Exchange, or Windows
+  Messaging. File attachments work fine, however.
+
+- If you use HTML in your signature, and you send the message before
+  any included images have finished drawing, the text you add to the
+  message may be lost.
+
+- Some e-mail clients send messages written in Cyrillic characters
+  with tags indicating that they are in a western European character
+  set. As a result, Outlook Express uses a western-European font to
+  display the message, which then appears garbled. To work around this
+  problem, click the View menu, click Language, and then choose a
+  Russian character set, such as K0I8. The message should display
+  properly using the Russian font.
+
+- If you send a Rich Text (HTML) message which contains embedded
+  pictures, and the option Send Pictures With Message is turned
+  off, any pictures from a local computer or LAN will not be displayed
+  when receiving and reading the message using Netscape Messenger.
+  
+  
+
+TROUBLESHOOTING
+===============
+
+- If you run into a problem, see the Troubleshooting topic in
+  Outlook Express Help or go to the following Web site:
+  http://support.microsoft.com/support/ie/iewin16/default.asp
+  
+  Also make sure of the following:
+
+- You are properly connected to your Internet service provider.
+
+- If you are unable to send or receive mail, check whether the
+  following is true:
+
+  - The TCP/IP protocol is installed on your computer.
+  - All cables are properly connected to your computer, modem, or LAN.
+  - You have a PPP or SLIP account with your ISP.
+  - Your ISP or LAN server supports POP3 and SMTP.
+  - Your modem communication parameters (baud rate and type of 
+    protocol) are set correctly.
+
+
+TIPS AND TRICKS
+===============
+
+- Use the Check Names command (on the Tools menu or New Message toolbar)
+  to resolve a person's e-mail address against your address book or
+  directory server when you are sending mail. The name will be underlined
+  when the associated address is found.
+
+- You can move the toolbar to the bottom edge of your screen by
+  right-clicking it and then choosing Bottom from the Align menu.
+
+- To send a mail message in Plain Text only (no HTML formatting),
+  click the Format menu, and then click Plain Text. To make Plain 
+  Text the default setting for new messages, replies, and forwarded 
+  messages, click the Tools menu, and then click Options. Click the Send 
+  tab, and then select Plain Text under Mail Sending Format. 
+
+- You can resize the preview pane or the message list by dragging the
+  divider between the preview pane and the message list.
+
+- You can change how the preview pane splits, or turn it off entirely,
+  by clicking the View menu, clicking Layout, and then changing the
+  options in the dialog box.
+
+- You can set news messages to automatically download to the preview pane
+  by clicking the Tools menu and then clicking Options. Click the Read
+  tab, and then selecting the check box labeled Automatically Show
+  Messages In The Preview Pane.
+
+- To view the e-mail address of someone who has sent you a message,
+  double-click the message to open it, and then double-click the author's 
+  name in the From field. You can also add this person to your Address
+  Book by right-clicking the name and then clicking Add To Address 
+  Book.
+
+- In mail, you can leave a copy of your messages on the server. To set
+  this option, click the Tools menu, and then click Accounts. Select
+  the mail account you want to modify, and then click Properties. Click 
+  the Advanced tab, and then select the check box labeled Leave A Copy
+  Of Messages On Server.
+
+- To add a custom signature to all messages, click the Tools menu, and
+  then click Stationery. On the Mail tab, click the Signature button,
+  type a signature or specify a signature file, and then select the
+  check box labeled Add This Signature To All Outgoing Messages.
+
+  To add the signature to replies and forwarded messages, you need to
+  clear the option labeled Don't Add Signature To Replies And Forwards.
+
+- It is possible to use HTML files as signatures.
+
+- To reorder columns, you can drag and drop column headings. Columns
+  can be resized by dragging the right edge of the column header. 
+
+
+
+SUPPORT FOR MICROSOFT OUTLOOK EXPRESS
+=====================================
+
+For the latest information about Outlook Express as well as a list of
+Frequently Asked Questions, see our Web page at 
+http://support.microsoft.com/support/ie/iewin16/default.asp
+You may find that your questions can be answered here.
+
+The following newsgroup is dedicated to the discussion of Outlook
+Express and provides peer support:
+
+ news://msnews.microsoft.com/microsoft.public.inetexplorer.win3
+
+This site is the best place to go if you are experiencing a problem,
+as someone else who experienced the same problem might already have 
+posted the solution.
+
+The Support.txt online document provides information about Microsoft
+Technical Support. The file is located in the directory where you
+installed Internet Explorer.

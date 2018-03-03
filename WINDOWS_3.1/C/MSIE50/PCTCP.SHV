@@ -1,0 +1,17 @@
+[pctcp ifcust 0]
+frame-type=PPP
+interface-type=PKTDRV
+
+[pctcp addresses]
+
+[pctcp general]
+etc-dir=c:\ftp
+host-name=lizard
+
+[pctcp kernel]
+interface=ifcust 0
+slow-link-multiplier=2
+
+[pctcp winsock]
+AutodialDllName16=url.dll
+AutodialFcnName16=AutodialHookCallback

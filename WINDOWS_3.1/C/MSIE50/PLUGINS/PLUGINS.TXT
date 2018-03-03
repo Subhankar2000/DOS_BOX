@@ -1,0 +1,1 @@
+No plugins are installed by default.  Go directly to the plugin vendor site to intall plugins.

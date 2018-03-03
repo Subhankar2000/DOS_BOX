@@ -1,0 +1,272 @@
+PPROP "X "BURY "TRUE
+PPROP "PRINC "BURY "TRUE
+PPROP ".SYSTEM "BURY "TRUE
+TO MAPLIST :list1 :list2
+IF EMPTYP :list1 [STOP]
+MAKE FIRST :list1 FIRST :list2
+MAPLIST BF :list1 BF :list2
+END
+
+TO LINES :line
+IF OR :line = "D :line = "d [MAKE "line [186 200 204 205 201]]
+IF OR :line = "S :line = "s [MAKE "line [179 192 195 196 218]]
+IF OR :line = "c :line = "C [MAKE "line [124 124 124 45 124]]
+MAPLIST [vertline botcorner intersec strline topcorner] :line
+END
+
+TO ASK.QUES 
+SETWIDTH ASK [Width 40 or 80?] [40 80]
+MAKE "printer ASK [Do you want it printed? \(Y\/N\)] [Y N]
+MAKE "graphics "Y
+IF :printer = "Y [CATCH "ERROR [DRIBBLE "LPT1 NODRIBBLE GO "NEXT] MAKE "printer "N PR [CAN'T PRINT WITHOUT A PRINTER]]
+LABEL "NEXT
+MAKE "line "C
+IF :printer = "Y [MAKE "graphics ASK [Graphics printer? \(Y\/N\)] [Y N]]
+IF :graphics = "Y [MAKE "line ASK [Double or single lines? \(D\/S\)] [D S]]
+LINES :line
+PR [Superprocedures are:] PR "
+PR :sups PR "
+NODRIBBLE
+PR [Are there any other superprocedures?]
+PR [Include those that are buried.]
+PR [Type the list or press Enter if none.]
+PR "
+MAKE "sups SE :sups READLIST
+IF :printer = "Y [DRIBBLE "LPT1]
+LABEL "CONT
+PR " PR :file PR "
+PR " PR [Superprocedures are:] PR "
+PR :sups PR "
+PR ["\* " PROCEDURE IS RECURSIVE]
+PR ["&" PROCEDURE PERFORMS "RUN"]
+PR "
+END
+
+TO SUPS :sups :level :inloop
+MAKE WORD "finished :level "FALSE
+IF EMPTYP :sups [STOP]
+LOCAL "proc
+MAKE "proc FIRST :sups
+IF MEMBERP :proc :inloop [(PR [LOOPING TO] :proc) STOP]
+TYPE :proc
+MAKE WORD "where :level COUNT :proc
+IT.MAY.BE.RECURSIVE :proc
+IT.MAY.BE.RUN :proc
+; [Does it have subprocedures]
+IF NOT EMPTYP THING :proc [FILL.UP.TO.NEXT :proc SUPS THING :proc :level + 1 SE :inloop :proc]
+; [Does it have more than one]
+IF NOT EMPTYP BF :sups [PR "  EXTRALINE BF :sups :level * 10 0 FILL.UP.TO.LEVEL BF :sups :level * 10 0]
+; [in all cases let's do the rest]
+SUPS BF :sups :level :inloop
+END
+
+TO IT.MAY.BE.RECURSIVE :proc
+IF MEMBERP :proc :recur [TYPE "* ADD1 WORD "where :level]
+END
+
+TO IT.MAY.BE.RUN :proc
+IF MEMBERP :proc :run [TYPE "& ADD1 WORD "where :level]
+END
+
+TO ; :COMMENT
+END
+
+TO FILL.UP.TO.NEXT :n
+TC1 32
+IF 1 = COUNT THING FIRST :sups [TC1 :strline MAKE WORD "finished :level "TRUE] [TC1 :topcorner]
+TCS 3 :strline
+TC1 32
+END
+
+TO EXTRALINE :sups :downlevel :uplevel
+IF :downlevel = 0 [PR "  STOP]
+EXTRALINE.FILL :uplevel
+TCS 4 32
+EXTRALINE :sups :downlevel - 10 :uplevel + 1
+END
+
+TO FILL.UP.TO.LEVEL :sups :downlevel :uplevel
+IF :downlevel = 0 [STOP]
+FILL.ONE.LEVEL :uplevel
+IF :downlevel = 10 [TCS 3 :strline TC1 32] [TCS 4 32]
+FILL.UP.TO.LEVEL :sups :downlevel - 10 :uplevel + 1
+END
+
+TO ADD1 :var
+MAKE :var 1 + THING :var
+END
+
+TO EXTRALINE.FILL :level
+TCS 1 + THING WORD "where :level 32
+IF THING WORD "finished :level [TC1 32] [TC1 :vertline]
+END
+
+TO TCS :n :c
+REPEAT :n [TYPE CHAR :c]
+END
+
+TO FILL.ONE.LEVEL :level
+TCS 1 + THING WORD "where :level 32
+IF THING WORD "finished :level [TC1 32 STOP]
+IF :downlevel = 10 [CORNER.OR.INTERSEC] [TC1 :vertline]
+END
+
+TO GET.SUBPROCEDURES :proc
+LOCAL "line
+MAKE "line READLIST
+IF [END] = :line [STOP]
+SUBPROCEDURES :line
+GET.SUBPROCEDURES :proc
+END
+
+TO SUBPROCEDURES :line
+IF EMPTYP :line [STOP]
+IF FIRST :line = :proc [MAKE "recur SE :recur :proc SUBPROCEDURES BF :line STOP]
+IF FIRST :line = "run [MAKE "run SE :run :proc SUBPROCEDURES BF :line STOP]
+IF LISTP FIRST :line [SUBPROCEDURES FIRST :line SUBPROCEDURES BF :line STOP]
+IF NOT MEMBERP FIRST :line :contents [SUBPROCEDURES BF :line STOP]
+IF NOT MEMBERP FIRST :line THING :proc [MAKE :proc SE THING :proc FIRST :line]
+IF NOT MEMBERP FIRST :line :subs [MAKE "subs SE :subs FIRST :line]
+SUBPROCEDURES BF :line
+END
+
+TO GET.TO.LINE 
+IF READEOFP [OP []]
+LOCAL "line
+MAKE "line READLIST
+IF EMPTYP :line [OP GET.TO.LINE]
+IF "TO = FIRST :line [OP :line]
+OP GET.TO.LINE
+END
+
+TO SAV :FILE
+ERASEFILE :FILE
+SAVE :FILE
+END
+
+TO TC1 :c
+TYPE CHAR :c
+END
+
+TO CORNER.OR.INTERSEC 
+IF 1 = COUNT :sups [TC1 :botcorner MAKE WORD "finished :level "TRUE] [TC1 :intersec]
+END
+
+TO PRINTOUT.TREE 
+ASK.QUES
+CATCH "ERROR [SUPS :sups 0 [] PR "  PR "  NODRIBBLE STOP]
+PR "  PR [NONEXISTENT SUPERPROCEDURE]
+NODRIBBLE
+END
+
+TO GET.SUPS :contents
+IF EMPTYP :contents [OP []]
+IF MEMBERP FIRST :contents :subs [OP GET.SUPS BF :contents]
+OP SE FIRST :contents GET.SUPS BF :contents
+END
+
+TO GET.SUBS 
+LOCAL "line
+MAKE "line GET.TO.LINE
+IF READEOFP [STOP]
+GET.SUBPROCEDURES FIRST BF :line
+GET.SUBS
+END
+
+TO GET.CONTENTS 
+LOCAL "line
+MAKE "line GET.TO.LINE
+IF READEOFP [STOP]
+MAKE "contents SE :contents FIRST BF :line
+GET.CONTENTS
+END
+
+TO ASK.FILE 
+CT
+DIR
+PR " TYPE [Which file?]
+DEFINE "FILE LIST [] LIST "OP RL
+IF EMPTYP FILE [PR " PR [A FILE NAME FROM THE DIRECTORY...] PR [Press any key to continue, Esc to exit.] MAKE "DUMMY RC ( IF :DUMMY = CHAR 27 [CLOSEALL DEMO STOP] ) ASK.FILE STOP]
+MAKE "file FIRST FILE
+IF NOT MEMBERP ". :file [MAKE "file WORD :file ".LF]
+IF NOT FILEP :file [PR " PR [File does not exist.] PR [Press any key to continue, Esc to exit.] MAKE "DUMMY RC ( IF :DUMMY = CHAR 27 [CLOSEALL DEMO STOP] ) ASK.FILE STOP]
+CLOSEALL
+PR [Processing file...]
+OPEN :file
+SETREAD :file
+END
+
+TO DESC 
+CT TS
+SETCURSOR [1 5]
+PR [LOGO PROGRAM TREE DISPLAY]
+SETCURSOR [3 0]
+PR [This program will list, on a printer]
+PR [or the screen, the program hierarchy]
+PR [of the LOGO program you select from]
+PR [the diskette directory.]
+PR " 
+PR [IF THE PROGRAM YOU WISH TO VIEW IS]
+PR [ON ANOTHER DISKETTE, SWITCH THEM NOW.]
+PR " 
+PR [To view the directory, press any key.]
+PR " 
+PR " 
+PR [To return to the menu, press Esc.]
+PR " 
+PR [Reinsert the Logo Language Diskette]
+PR [into drive A before you press Esc.]
+PR " 
+WAITKEY
+END
+
+TO INIT.VARS :con
+IF EMPTYP :con [STOP]
+MAKE FIRST :con []
+INIT.VARS BF :con
+END
+
+TO ASK :QUES :ANS
+LOCAL "A
+TYPE :QUES
+MAKE "A READWORD
+IF NOT MEMBERP :A :ANS [OP ASK :QUES :ANS]
+OP :A
+END
+
+TO START 
+ERNS
+RECYCLE
+INIT.VARS [contents subs recur run subs]
+DESC
+MAKE "WIDTH WIDTH
+MAKE "DUMMY RC
+IF :DUMMY = CHAR 27 [DEMO STOP]
+ASK.FILE
+IF :file = CHAR 27 [DEMO STOP]
+GET.CONTENTS
+INIT.VARS :contents
+SETREADPOS 0
+GET.SUBS
+CLOSE :file
+MAKE "sups GET.SUPS :contents
+PRINTOUT.TREE
+PR " 
+PR [Press any key to continue.]
+WAITKEY
+MAKE "DUMMY RC
+SETWIDTH :WIDTH
+START
+END
+
+TO FILE 
+OP [SAMPLES]
+END
+
+MAKE "subs []
+MAKE "run []
+MAKE "recur []
+MAKE "contents []
+MAKE "KEY 1
+MAKE "RUN "0
+

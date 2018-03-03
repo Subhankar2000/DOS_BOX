@@ -1,0 +1,22 @@
+REGEDIT
+HKEY_CLASSES_ROOT\mplayer = Media Clip
+HKEY_CLASSES_ROOT\mplayer\protocol\StdExecute\server = mplayer.exe
+HKEY_CLASSES_ROOT\mplayer\protocol\StdFileEditing\Handler = mciole.dll
+HKEY_CLASSES_ROOT\mplayer\protocol\StdFileEditing\server = mplayer.exe
+HKEY_CLASSES_ROOT\mplayer\protocol\StdFileEditing\PackageObjects = 
+HKEY_CLASSES_ROOT\mplayer\protocol\StdFileEditing\verb\1 = &Edit
+HKEY_CLASSES_ROOT\mplayer\protocol\StdFileEditing\verb\0 = &Play
+HKEY_CLASSES_ROOT\mplayer\shell\open\command = mplayer.exe /play /close %1
+
+;OLE2 Compatibility entries.
+HKEY_CLASSES_ROOT\MPlayer\CLSID = {0003000E-0000-0000-C000-000000000046}
+HKEY_CLASSES_ROOT\CLSID\{0003000E-0000-0000-C000-000000000046} = Media Clip
+HKEY_CLASSES_ROOT\CLSID\{0003000E-0000-0000-C000-000000000046}\InprocHandler = mciole.dll
+HKEY_CLASSES_ROOT\CLSID\{0003000E-0000-0000-C000-000000000046}\ProgID = MPlayer
+HKEY_CLASSES_ROOT\CLSID\{0003000E-0000-0000-C000-000000000046}\Ole1Class = MPlayer
+
+HKEY_CLASSES_ROOT\.avi = mplayer
+HKEY_CLASSES_ROOT\.mmm = mplayer
+HKEY_CLASSES_ROOT\.mid = mplayer
+HKEY_CLASSES_ROOT\.rmi = mplayer
+

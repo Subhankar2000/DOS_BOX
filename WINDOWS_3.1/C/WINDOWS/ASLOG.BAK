@@ -1,0 +1,754 @@
+Logging information for setup.exe ...
+Starting new Install ...
+Set message queue size: 120
+Looking for Current SuState.
+Current SuState: [013200013200013200013200013200].
+Saving current setup state :[013200013200013200013200013200].
+Init the setup help.
+Command line:C:\WIN_EXE\IE5FUL16\SETUP.EXE /x:
+Found Network Admin Install=FALSE.
+
+Checking for Loaded Binaries on system...
+
+Dll: KERNEL, refs = 44
+DllPath: C:\WINDOWS\SYSTEM\KRNL386.EXE
+Dll ref: SYSHOOK
+Dll ref Path: C:\WINDOWS\SYSTEM\SYSHOOK.DRV
+Dll ref: SYSTEM
+Dll ref Path: C:\WINDOWS\SYSTEM\SYSTEM.DRV
+Dll ref: KEYBOARD
+Dll ref Path: C:\WINDOWS\SYSTEM\KEYBOARD.DRV
+Dll ref: MOUSE
+Dll ref Path: C:\WINDOWS\SYSTEM\MOUSE.DRV
+Dll ref: DISPLAY
+Dll ref Path: C:\WINDOWS\SYSTEM\S3TRIO.DRV
+Dll ref: SOUND
+Dll ref Path: C:\WINDOWS\SYSTEM\MMSOUND.DRV
+Dll ref: COMM
+Dll ref Path: C:\WINDOWS\SYSTEM\COMM.DRV
+Dll ref: GDI
+Dll ref Path: C:\WINDOWS\SYSTEM\GDI.EXE
+Dll ref: USER
+Dll ref Path: C:\WINDOWS\SYSTEM\USER.EXE
+Dll ref: PROGMAN
+Dll ref Path: C:\WINDOWS\PROGMAN.EXE
+Dll ref: SHELL
+Dll ref Path: C:\WINDOWS\SYSTEM\SHELL.DLL
+Dll ref: MMSYSTEM
+Dll ref Path: C:\WINDOWS\SYSTEM\MMSYSTEM.DLL
+Dll ref: TIMER
+Dll ref Path: C:\WINDOWS\SYSTEM\TIMER.DRV
+Dll ref: SB16SND
+Dll ref Path: C:\WINDOWS\SYSTEM\SB16SND.DRV
+Dll ref: CSPMAN
+Dll ref Path: C:\WINDOWS\SYSTEM\CSPMAN.DLL
+Dll ref: MSACMMAP
+Dll ref Path: C:\WINDOWS\SYSTEM\MSACM.DRV
+Dll ref: MSACM
+Dll ref Path: C:\WINDOWS\SYSTEM\MSACM.DLL
+Dll ref: MSADPCM
+Dll ref Path: C:\WINDOWS\SYSTEM\MSADPCM.ACM
+Dll ref: IMAADPCM
+Dll ref Path: C:\WINDOWS\SYSTEM\IMAADPCM.ACM
+Dll ref: SBFM
+Dll ref Path: C:\WINDOWS\SYSTEM\SB16FM.DRV
+Dll ref: MIDI
+Dll ref Path: C:\WINDOWS\SYSTEM\MIDIMAP.DRV
+Dll ref: IBMJOY
+Dll ref Path: C:\WINDOWS\SYSTEM\IBMJOY.DRV
+Dll ref: WINMM16
+Dll ref Path: C:\WINDOWS\SYSTEM\WINMM16.DLL
+Dll ref: MSMIXMGR
+Dll ref Path: C:\WINDOWS\SYSTEM\MSMIXMGR.DLL
+Dll ref: WIN87EM
+Dll ref Path: C:\WINDOWS\SYSTEM\WIN87EM.DLL
+Dll ref: TOOLHELP
+Dll ref Path: C:\WINDOWS\SYSTEM\TOOLHELP.DLL
+Dll ref: W32SYS
+Dll ref Path: C:\WINDOWS\SYSTEM\W32SYS.DLL
+Dll ref: VER
+Dll ref Path: C:\WINDOWS\SYSTEM\VER.DLL
+Dll ref: LZEXPAND
+Dll ref Path: C:\WINDOWS\SYSTEM\LZEXPAND.DLL
+Dll ref: DDEML
+Dll ref Path: C:\WINDOWS\SYSTEM\DDEML.DLL
+Dll ref: COMMDLG
+Dll ref Path: C:\WINDOWS\SYSTEM\COMMDLG.DLL
+Dll ref: CALMIRA
+Dll ref Path: C:\CALMIRA\CALMIRA.EXE
+Dll ref: CTL3DV2
+Dll ref Path: C:\WINDOWS\SYSTEM\CTL3DV2.DLL
+Dll ref: WNDHOOKS
+Dll ref Path: C:\CALMIRA\WNDHOOKS.DLL
+Dll ref: IE5SETUP
+Dll ref Path: C:\WIN_EXE\IE5FUL16\SETUP.EXE
+
+Dll: SYSHOOK, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\SYSHOOK.DRV
+Dll ref: 1 LoadLibrary loads
+
+Dll: SYSTEM, refs = 36
+DllPath: C:\WINDOWS\SYSTEM\SYSTEM.DRV
+Dll ref: MOUSE
+Dll ref Path: C:\WINDOWS\SYSTEM\MOUSE.DRV
+Dll ref: USER
+Dll ref Path: C:\WINDOWS\SYSTEM\USER.EXE
+
+Dll: KEYBOARD, refs = 35
+DllPath: C:\WINDOWS\SYSTEM\KEYBOARD.DRV
+Dll ref: USER
+Dll ref Path: C:\WINDOWS\SYSTEM\USER.EXE
+Dll ref: PROGMAN
+Dll ref Path: C:\WINDOWS\PROGMAN.EXE
+Dll ref: SHELL
+Dll ref Path: C:\WINDOWS\SYSTEM\SHELL.DLL
+Dll ref: MMSYSTEM
+Dll ref Path: C:\WINDOWS\SYSTEM\MMSYSTEM.DLL
+Dll ref: VER
+Dll ref Path: C:\WINDOWS\SYSTEM\VER.DLL
+Dll ref: DDEML
+Dll ref Path: C:\WINDOWS\SYSTEM\DDEML.DLL
+Dll ref: COMMDLG
+Dll ref Path: C:\WINDOWS\SYSTEM\COMMDLG.DLL
+Dll ref: CALMIRA
+Dll ref Path: C:\CALMIRA\CALMIRA.EXE
+Dll ref: IE5SETUP
+Dll ref Path: C:\WIN_EXE\IE5FUL16\SETUP.EXE
+
+Dll: MOUSE, refs = 35
+DllPath: C:\WINDOWS\SYSTEM\MOUSE.DRV
+Dll ref: USER
+Dll ref Path: C:\WINDOWS\SYSTEM\USER.EXE
+
+Dll: DISPLAY, refs = 36
+DllPath: C:\WINDOWS\SYSTEM\S3TRIO.DRV
+Dll ref: USER
+Dll ref Path: C:\WINDOWS\SYSTEM\USER.EXE
+
+Dll: SOUND, refs = 35
+DllPath: C:\WINDOWS\SYSTEM\MMSOUND.DRV
+Dll ref: USER
+Dll ref Path: C:\WINDOWS\SYSTEM\USER.EXE
+
+Dll: COMM, refs = 35
+DllPath: C:\WINDOWS\SYSTEM\COMM.DRV
+Dll ref: USER
+Dll ref Path: C:\WINDOWS\SYSTEM\USER.EXE
+
+Dll: FONTS, refs = 2
+DllPath: C:\WINDOWS\SYSTEM\VGASYS.FON
+Dll ref: 2 LoadLibrary loads
+
+Dll: OEMFONTS, refs = 2
+DllPath: C:\WINDOWS\SYSTEM\VGAOEM.FON
+Dll ref: 2 LoadLibrary loads
+
+Dll: GDI, refs = 35
+DllPath: C:\WINDOWS\SYSTEM\GDI.EXE
+Dll ref: USER
+Dll ref Path: C:\WINDOWS\SYSTEM\USER.EXE
+Dll ref: PROGMAN
+Dll ref Path: C:\WINDOWS\PROGMAN.EXE
+Dll ref: SHELL
+Dll ref Path: C:\WINDOWS\SYSTEM\SHELL.DLL
+Dll ref: MSACMMAP
+Dll ref Path: C:\WINDOWS\SYSTEM\MSACM.DRV
+Dll ref: MSACM
+Dll ref Path: C:\WINDOWS\SYSTEM\MSACM.DLL
+Dll ref: MIDI
+Dll ref Path: C:\WINDOWS\SYSTEM\MIDIMAP.DRV
+Dll ref: DDEML
+Dll ref Path: C:\WINDOWS\SYSTEM\DDEML.DLL
+Dll ref: COMMDLG
+Dll ref Path: C:\WINDOWS\SYSTEM\COMMDLG.DLL
+Dll ref: CALMIRA
+Dll ref Path: C:\CALMIRA\CALMIRA.EXE
+Dll ref: CTL3DV2
+Dll ref Path: C:\WINDOWS\SYSTEM\CTL3DV2.DLL
+Dll ref: IE5SETUP
+Dll ref Path: C:\WIN_EXE\IE5FUL16\SETUP.EXE
+
+Dll: FIXFONTS, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\VGAFIX.FON
+Dll ref: 1 LoadLibrary loads
+
+Dll: USER, refs = 34
+DllPath: C:\WINDOWS\SYSTEM\USER.EXE
+Dll ref: PROGMAN
+Dll ref Path: C:\WINDOWS\PROGMAN.EXE
+Dll ref: SHELL
+Dll ref Path: C:\WINDOWS\SYSTEM\SHELL.DLL
+Dll ref: MMSYSTEM
+Dll ref Path: C:\WINDOWS\SYSTEM\MMSYSTEM.DLL
+Dll ref: TIMER
+Dll ref Path: C:\WINDOWS\SYSTEM\TIMER.DRV
+Dll ref: SB16SND
+Dll ref Path: C:\WINDOWS\SYSTEM\SB16SND.DRV
+Dll ref: CSPMAN
+Dll ref Path: C:\WINDOWS\SYSTEM\CSPMAN.DLL
+Dll ref: MSACMMAP
+Dll ref Path: C:\WINDOWS\SYSTEM\MSACM.DRV
+Dll ref: MSACM
+Dll ref Path: C:\WINDOWS\SYSTEM\MSACM.DLL
+Dll ref: MSADPCM
+Dll ref Path: C:\WINDOWS\SYSTEM\MSADPCM.ACM
+Dll ref: IMAADPCM
+Dll ref Path: C:\WINDOWS\SYSTEM\IMAADPCM.ACM
+Dll ref: SBFM
+Dll ref Path: C:\WINDOWS\SYSTEM\SB16FM.DRV
+Dll ref: MIDI
+Dll ref Path: C:\WINDOWS\SYSTEM\MIDIMAP.DRV
+Dll ref: IBMJOY
+Dll ref Path: C:\WINDOWS\SYSTEM\IBMJOY.DRV
+Dll ref: WINMM16
+Dll ref Path: C:\WINDOWS\SYSTEM\WINMM16.DLL
+Dll ref: MSMIXMGR
+Dll ref Path: C:\WINDOWS\SYSTEM\MSMIXMGR.DLL
+Dll ref: TOOLHELP
+Dll ref Path: C:\WINDOWS\SYSTEM\TOOLHELP.DLL
+Dll ref: W32SYS
+Dll ref Path: C:\WINDOWS\SYSTEM\W32SYS.DLL
+Dll ref: VER
+Dll ref Path: C:\WINDOWS\SYSTEM\VER.DLL
+Dll ref: LZEXPAND
+Dll ref Path: C:\WINDOWS\SYSTEM\LZEXPAND.DLL
+Dll ref: DDEML
+Dll ref Path: C:\WINDOWS\SYSTEM\DDEML.DLL
+Dll ref: COMMDLG
+Dll ref Path: C:\WINDOWS\SYSTEM\COMMDLG.DLL
+Dll ref: CALMIRA
+Dll ref Path: C:\CALMIRA\CALMIRA.EXE
+Dll ref: CTL3DV2
+Dll ref Path: C:\WINDOWS\SYSTEM\CTL3DV2.DLL
+Dll ref: WNDHOOKS
+Dll ref Path: C:\CALMIRA\WNDHOOKS.DLL
+Dll ref: IE5SETUP
+Dll ref Path: C:\WIN_EXE\IE5FUL16\SETUP.EXE
+
+Dll: MODERN, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\MODERN.FON
+Dll ref: 1 LoadLibrary loads
+
+Dll: SCRIPT, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\SCRIPT.FON
+Dll ref: 1 LoadLibrary loads
+
+Dll: ROMAN, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\ROMAN.FON
+Dll ref: 1 LoadLibrary loads
+
+Dll: SSERIFE, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\SSERIFE.FON
+Dll ref: 1 LoadLibrary loads
+
+Dll: COURE, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\COURE.FON
+Dll ref: 1 LoadLibrary loads
+
+Dll: SERIFE, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\SERIFE.FON
+Dll ref: 1 LoadLibrary loads
+
+Dll: SYMBOLE, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\SYMBOLE.FON
+Dll ref: 1 LoadLibrary loads
+
+Dll: SMALLE, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\SMALLE.FON
+Dll ref: 1 LoadLibrary loads
+
+BINS: PROGMAN, refs = 1
+BINSPath: C:\WINDOWS\PROGMAN.EXE
+
+Dll: SHELL, refs = 2
+DllPath: C:\WINDOWS\SYSTEM\SHELL.DLL
+Dll ref: PROGMAN
+Dll ref Path: C:\WINDOWS\PROGMAN.EXE
+Dll ref: CALMIRA
+Dll ref Path: C:\CALMIRA\CALMIRA.EXE
+
+Dll: MMSYSTEM, refs = 17
+DllPath: C:\WINDOWS\SYSTEM\MMSYSTEM.DLL
+Dll ref: TIMER
+Dll ref Path: C:\WINDOWS\SYSTEM\TIMER.DRV
+Dll ref: SB16SND
+Dll ref Path: C:\WINDOWS\SYSTEM\SB16SND.DRV
+Dll ref: CSPMAN
+Dll ref Path: C:\WINDOWS\SYSTEM\CSPMAN.DLL
+Dll ref: MSACMMAP
+Dll ref Path: C:\WINDOWS\SYSTEM\MSACM.DRV
+Dll ref: MSACM
+Dll ref Path: C:\WINDOWS\SYSTEM\MSACM.DLL
+Dll ref: IMAADPCM
+Dll ref Path: C:\WINDOWS\SYSTEM\IMAADPCM.ACM
+Dll ref: SBFM
+Dll ref Path: C:\WINDOWS\SYSTEM\SB16FM.DRV
+Dll ref: MIDI
+Dll ref Path: C:\WINDOWS\SYSTEM\MIDIMAP.DRV
+Dll ref: WINMM16
+Dll ref Path: C:\WINDOWS\SYSTEM\WINMM16.DLL
+Dll ref: MSMIXMGR
+Dll ref Path: C:\WINDOWS\SYSTEM\MSMIXMGR.DLL
+Dll ref: CALMIRA
+Dll ref Path: C:\CALMIRA\CALMIRA.EXE
+
+Dll: TIMER, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\TIMER.DRV
+Dll ref: 1 LoadLibrary loads
+
+Dll: SB16SND, refs = 6
+DllPath: C:\WINDOWS\SYSTEM\SB16SND.DRV
+Dll ref: 6 LoadLibrary loads
+
+Dll: CSPMAN, refs = 6
+DllPath: C:\WINDOWS\SYSTEM\CSPMAN.DLL
+Dll ref: SB16SND
+Dll ref Path: C:\WINDOWS\SYSTEM\SB16SND.DRV
+
+Dll: MSACMMAP, refs = 2
+DllPath: C:\WINDOWS\SYSTEM\MSACM.DRV
+Dll ref: 2 LoadLibrary loads
+
+Dll: MSACM, refs = 2
+DllPath: C:\WINDOWS\SYSTEM\MSACM.DLL
+Dll ref: MSACMMAP
+Dll ref Path: C:\WINDOWS\SYSTEM\MSACM.DRV
+
+Dll: MSADPCM, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\MSADPCM.ACM
+Dll ref: 1 LoadLibrary loads
+
+Dll: IMAADPCM, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\IMAADPCM.ACM
+Dll ref: 1 LoadLibrary loads
+
+Dll: SBFM, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\SB16FM.DRV
+Dll ref: 1 LoadLibrary loads
+
+Dll: MIDI, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\MIDIMAP.DRV
+Dll ref: 1 LoadLibrary loads
+
+Dll: IBMJOY, refs = 2
+DllPath: C:\WINDOWS\SYSTEM\IBMJOY.DRV
+Dll ref: 2 LoadLibrary loads
+
+Dll: WINMM16, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\WINMM16.DLL
+Dll ref: 1 LoadLibrary loads
+
+Dll: MSMIXMGR, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\MSMIXMGR.DLL
+Dll ref: 1 LoadLibrary loads
+
+Dll: WIN87EM, refs = 2
+DllPath: C:\WINDOWS\SYSTEM\WIN87EM.DLL
+Dll ref: CALMIRA
+Dll ref Path: C:\CALMIRA\CALMIRA.EXE
+Dll ref: IE5SETUP
+Dll ref Path: C:\WIN_EXE\IE5FUL16\SETUP.EXE
+
+Dll: TOOLHELP, refs = 2
+DllPath: C:\WINDOWS\SYSTEM\TOOLHELP.DLL
+Dll ref: CALMIRA
+Dll ref Path: C:\CALMIRA\CALMIRA.EXE
+Dll ref: IE5SETUP
+Dll ref Path: C:\WIN_EXE\IE5FUL16\SETUP.EXE
+
+Dll: W32SYS, refs = 9
+DllPath: C:\WINDOWS\SYSTEM\W32SYS.DLL
+Dll ref: 9 LoadLibrary loads
+
+Dll: VER, refs = 11
+DllPath: C:\WINDOWS\SYSTEM\VER.DLL
+Dll ref: W32SYS
+Dll ref Path: C:\WINDOWS\SYSTEM\W32SYS.DLL
+Dll ref: CALMIRA
+Dll ref Path: C:\CALMIRA\CALMIRA.EXE
+Dll ref: IE5SETUP
+Dll ref Path: C:\WIN_EXE\IE5FUL16\SETUP.EXE
+
+Dll: LZEXPAND, refs = 11
+DllPath: C:\WINDOWS\SYSTEM\LZEXPAND.DLL
+Dll ref: VER
+Dll ref Path: C:\WINDOWS\SYSTEM\VER.DLL
+
+Dll: DDEML, refs = 2
+DllPath: C:\WINDOWS\SYSTEM\DDEML.DLL
+Dll ref: CALMIRA
+Dll ref Path: C:\CALMIRA\CALMIRA.EXE
+Dll ref: IE5SETUP
+Dll ref Path: C:\WIN_EXE\IE5FUL16\SETUP.EXE
+
+Dll: COMMDLG, refs = 2
+DllPath: C:\WINDOWS\SYSTEM\COMMDLG.DLL
+Dll ref: CALMIRA
+Dll ref Path: C:\CALMIRA\CALMIRA.EXE
+Dll ref: IE5SETUP
+Dll ref Path: C:\WIN_EXE\IE5FUL16\SETUP.EXE
+
+BINS: CALMIRA, refs = 1
+BINSPath: C:\CALMIRA\CALMIRA.EXE
+
+Dll: CTL3DV2, refs = 1
+DllPath: C:\WINDOWS\SYSTEM\CTL3DV2.DLL
+Dll ref: 1 LoadLibrary loads
+
+Dll: WNDHOOKS, refs = 1
+DllPath: C:\CALMIRA\WNDHOOKS.DLL
+Dll ref: 1 LoadLibrary loads
+
+BINS: IE5SETUP, refs = 1
+BINSPath: C:\WIN_EXE\IE5FUL16\SETUP.EXE
+
+Current unpack version from :MS:00050000 LS:0391089f:.
+Found installed unpack version from :MS:00327680 LS:59836575:.
+MSOfficeStillRunning.
+CheckForDlls.
+
+Closed Running Apps
+Scan loaded dlls
+extract iesetup.inf:license.txt:iesetup.hlp files from C:\WIN_EXE\IE5FUL16\SETUP.EXE
+Source Dir set to C:\WINDOWS\TEMP\~ase056E.TMP
+extract install.ins files from C:\WIN_EXE\IE5FUL16\SETUP.EXE
+IEExtract failed with hr = 80000008:
+Set the log file in setupeng
+GetSettings:  Lan being used for setup, autodial enabled.
+Date:2/8/2016 (M/D/Y) Time:18:51:37
+Checking for previous version of Internet Explorer.
+Registry entry Software\Microsoft\Windows\CurrentVersion\App Paths\iexplore.exe found
+AppPath entry ::
+File :C:\MSIE50\iexplore.exe: Version:5.0.913.2200
+Default install path:C:\MSIE50:
+Found iesetup.ini with valid Signature. Assume Local (CD) install.
+Last time ran Install Only.
+Install State :00000002:
+ValidateSetupMode :C:\WIN_EXE\IE5FUL16\iesetup.ini:
+Checking for wfw//nt351 installed OLE.
+Version Detect set to MSLow: 20003, MSHigh: 20003, LSLow: 7d008c, LSHigh: ffffffff
+Version of C:\WINDOWS\SYSTEM\storage.dll, MS: 20003, LS: 7d008c
+Version of C:\WINDOWS\SYSTEM\compobj.dll, MS: 20003, LS: 7d008e
+Version of C:\WINDOWS\SYSTEM\ole2.dll, MS: 20003, LS: 7d008e
+Version Detect set to MSLow: 20003, MSHigh: 20003, LSLow: bcb0001, LSHigh: ffffffff
+Version of C:\WINDOWS\SYSTEM\ole2nls.dll, MS: 20003, LS: bcb0001
+Version of C:\WINDOWS\SYSTEM\ole2disp.dll, MS: 20003, LS: bcb0001
+Version of C:\WINDOWS\SYSTEM\typelib.dll, MS: 20003, LS: bcb0001
+Version of C:\WINDOWS\SYSTEM\stdole.tlb, MS: 20003, LS: bcb0001
+Version Detect set to MSLow: 20001, MSHigh: 20001, LSLow: 1, LSHigh: 1
+Version of C:\WINDOWS\SYSTEM\ole2conv.dll, MS: 20001, LS: 1
+Version Detect set to MSLow: 10020, MSHigh: 10020, LSLow: 0, LSHigh: 0
+Version of C:\WINDOWS\SYSTEM\olecli.dll, MS: 10020, LS: 0
+Version Detect set to MSLow: 20003, MSHigh: 20003, LSLow: 7d008e, LSHigh: 7d008e
+Version of C:\WINDOWS\SYSTEM\ole2prox.dll, MS: 20003, LS: 7d008e
+Writing detected OLE info to registry.
+Version Detect set to MSLow: 0, MSHigh: 0, LSLow: 0, LSHigh: 0
+Version Detect set to MSLow: 50000, MSHigh: 50000, LSLow: 0, LSHigh: 270f0c7f
+Version Detect set to MSLow: 40000, MSHigh: 40000, LSLow: 10715, LSHigh: 108ff
+Version Detect set to MSLow: 40000, MSHigh: 40000, LSLow: 52a, LSHigh: 714
+Version Detect set to MSLow: 40000, MSHigh: 40000, LSLow: 3f2, LSHigh: 529
+Version Detect set to MSLow: 40000, MSHigh: 40000, LSLow: 0, LSHigh: 3f1
+Version Detect set to MSLow: 30000, MSHigh: 30003, LSLow: 0, LSHigh: ffffffff
+Version Detect set to MSLow: 20000, MSHigh: 20009, LSLow: 0, LSHigh: ffffffff
+Version Detect set to MSLow: 0, MSHigh: 0, LSLow: 0, LSHigh: 0
+Found previous version:  
+Version of ActiveX files.
+File :C:\WINDOWS\SYSTEM\win16x.dll: Version:5.0.913.2200
+File :C:\WINDOWS\SYSTEM\urlmon16.dll: Version:5.0.913.2200
+File :C:\WINDOWS\SYSTEM\comctl16.dll: Version:5.0.913.2200
+detecting installation type.
+detected uninstall mode.
+Uninstall use install mode.
+Reading recovery info from :Software\Microsoft\Active Setup\InstallInfo:.
+Setup mode :0:
+Setup Option :00000004:
+Install Dir :C:\MSIE50:
+Download Dir :C:\WIN_EXE\IE5FUL16:
+Download State :00000000:
+Install State :00000002:
+Found iesetup.ini with valid Signature. Assume Local (CD) install.
+ValidateSetupMode :C:\WIN_EXE\IE5FUL16\iesetup.ini:
+On Welcome page.
+On prepare setup page.
+Date:2/8/2016 (M/D/Y) Time:18:51:55
+Run setup command. File:C:\WINDOWS\TEMP\~ase056E.TMP\IESetup.inf: Section:Job.Default:
+GetInstallSectionName returning [DefaultInstall]
+RunSetupCommand returned :00000000!:
+Run setup command. File:C:\WINDOWS\TEMP\~ase056E.TMP\IESetup.inf: Section:Job:
+GetInstallSectionName returning [DefaultInstall]
+GetTranslatedLine failed getting pretranslated line
+RegisterOCXs, Failed get translated line, filename: C:\WINDOWS\TEMP\~ase056E.TMP\IESetup.inf, section: MSIE5RegisterOCXSection
+RunSetupCommand returned :00000000!:
+Found previous download directory at :C:\WIN_EXE\IE5FUL16:.
+Install Engine - download directory set to C:\WIN_EXE\IE5FUL16
+Initialize job:Job.IE5:
+Using local instruction file from C:\WIN_EXE\IE5FUL16\iecif.cab
+Initial timing rates: Download: 0, Install 60000
+Instruction extract done: hr = 0 (OK)
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+Install dir (C:\) size = 0K for component Internet Explorer and other Internet Tools.
+Win dir (C:\) size = 0K for component Internet Explorer and other Internet Tools.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+63K allocation unit detected on drive C:\.
+Install dir (C:\) size = 0K for component Object Linking And Embedding 2.03.
+63K allocation unit detected on drive C:\.
+Win dir (C:\) size = 1352K for component Object Linking And Embedding 2.03.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+63K allocation unit detected on drive C:\.
+Install dir (C:\) size = 766K for component Microsoft Internet Explorer 5.
+63K allocation unit detected on drive C:\.
+Win dir (C:\) size = 8193K for component Microsoft Internet Explorer 5.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+63K allocation unit detected on drive C:\.
+Install dir (C:\) size = 0K for component Browser Customizations.
+63K allocation unit detected on drive C:\.
+Win dir (C:\) size = 1K for component Browser Customizations.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+63K allocation unit detected on drive C:\.
+Install dir (C:\) size = 1352K for component Microsoft VM for Win 3.1/Win NT 3.51.
+63K allocation unit detected on drive C:\.
+Win dir (C:\) size = 0K for component Microsoft VM for Win 3.1/Win NT 3.51.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+63K allocation unit detected on drive C:\.
+Install dir (C:\) size = 2706K for component Outlook Express for Win 3.1/Win NT 3.51.
+63K allocation unit detected on drive C:\.
+Win dir (C:\) size = 1770K for component Outlook Express for Win 3.1/Win NT 3.51.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+63K allocation unit detected on drive C:\.
+Install dir (C:\) size = 3384K for component Stack and Dialer for Win 3.1.
+63K allocation unit detected on drive C:\.
+Win dir (C:\) size = 33K for component Stack and Dialer for Win 3.1.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+63K allocation unit detected on drive C:\.
+Install dir (C:\) size = 0K for component Core Components.
+63K allocation unit detected on drive C:\.
+Win dir (C:\) size = 1639K for component Core Components.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+Install dir (C:\) size = 0K for component Addons.
+Win dir (C:\) size = 0K for component Addons.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+Install dir (C:\) size = 0K for component Addon.JAVA_Win16.
+Win dir (C:\) size = 0K for component Addon.JAVA_Win16.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+Install dir (C:\) size = 0K for component Addon.MailNews_Win16.
+Win dir (C:\) size = 0K for component Addon.MailNews_Win16.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+Install dir (C:\) size = 0K for component Addon.IEStackDialer_Win16.
+Win dir (C:\) size = 0K for component Addon.IEStackDialer_Win16.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+Install dir (C:\) size = 0K for component AddonRemove.JAVA_Win16.
+Win dir (C:\) size = 0K for component AddonRemove.JAVA_Win16.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+Install dir (C:\) size = 0K for component AddonRemove.MailNews_Win16.
+Win dir (C:\) size = 0K for component AddonRemove.MailNews_Win16.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+Install dir (C:\) size = 0K for component AddonRemove.IEStackDialer_Win16.
+Win dir (C:\) size = 0K for component AddonRemove.IEStackDialer_Win16.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+Install dir (C:\) size = 0K for component JAVA_Win16.reg.
+Win dir (C:\) size = 0K for component JAVA_Win16.reg.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+Install dir (C:\) size = 0K for component MailNews_Win16.reg.
+Win dir (C:\) size = 0K for component MailNews_Win16.reg.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+Install dir (C:\) size = 0K for component IEStackDialer_Win16.reg.
+Win dir (C:\) size = 0K for component IEStackDialer_Win16.reg.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+Install dir (C:\) size = 0K for component JAVA_Win16.remreg.
+Win dir (C:\) size = 0K for component JAVA_Win16.remreg.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+Install dir (C:\) size = 0K for component MailNews_Win16.remreg.
+Win dir (C:\) size = 0K for component MailNews_Win16.remreg.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+Install dir (C:\) size = 0K for component IEStackDialer_Win16.remreg.
+Win dir (C:\) size = 0K for component IEStackDialer_Win16.remreg.
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+Install dir (C:\) size = 0K for component Strings.
+Win dir (C:\) size = 0K for component Strings.
+Return from InitializeJob :00000000
+Initialize job:Job.IE5: returned :00000000:.
+Run setup command. File:C:\WINDOWS\msdownld.tmp\ASE000.tmp\IEsetup.cif: Section:addon.MailNews_Win16:
+GetInstallSectionName returning [DefaultInstall]
+RunSetupCommand returned :00000000!:
+Run setup command. File:C:\WINDOWS\msdownld.tmp\ASE000.tmp\IEsetup.cif: Section:addon.IEStackDialer_Win16:
+GetInstallSectionName returning [DefaultInstall]
+RunSetupCommand returned :00000000!:
+Run setup command. File:C:\WINDOWS\msdownld.tmp\ASE000.tmp\IEsetup.cif: Section:addon.JAVA_Win16:
+GetInstallSectionName returning [DefaultInstall]
+RunSetupCommand returned :00000000!:
+Checking if component MailNews_Win16 is already downloaded
+File C:\WIN_EXE\IE5FUL16\mailnews.cab is already downloaded
+On diskspace check page.
+Checking install status for items in IE_JAVA
+    JAVA_Win16 is already installed
+    DisplayName is not in the chosen mode
+Checking install status for items in BASEIE
+    BASEIE_Win16 is already installed
+    DisplayName is not in the chosen mode
+JAVA_Win16 will be installed
+BASEIE_Win16 will be installed
+SetInstallOption returned 00000000.
+SetInstallMode returned 00000000.
+GetSettings:  stack and dialer to be installed.
+About to install user selected components.
+Date:2/8/2016 (M/D/Y) Time:18:52:45
+Checkin :S:, Section :S:, Name :S:, Value:S:
+Install Engine - Starting install phase
+
+OnStartInstall:
+   Download: 0 KB
+   Install 11950 KB
+
+****** UnInstall for component - BASEIE_Win16****** 
+OnStartComponent:
+   ID: BASEIE_Win16
+   Download: 0 KB
+   Install 8959 KB
+Space remaining on windows drive: 255968
+File extraction: C:\WIN_EXE\IE5FUL16\Browser.cab, Result: 0 (OK)
+Launching Inf - inf: C:\WINDOWS\msdownld.tmp\ASE000.tmp\Browser.inf, section: Default
+RunSetupCommand Flags == 80d
+GetInstallSectionNameEx returning [DefaultInstall.Uninstall]
+OCX loadlib for C:\WINDOWS\SYSTEM\sdv16.dll returned 27c6
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+GetInstallSectionName returning [DefaultInstall]
+DllUnInst returned 0001 for C:\WINDOWS\SYSTEM\sdv16.dll
+GetInstallSectionName returning [DefaultInstall]
+DllUnRegisterServer returned 0001 for C:\WINDOWS\SYSTEM\sdv16.dll
+OCX loadlib for C:\WINDOWS\SYSTEM\inet16.cpl returned 22fe
+GetInstallSectionName returning [DefaultInstall]
+DllUnInst returned 0001 for C:\WINDOWS\SYSTEM\inet16.cpl
+OCX loadlib for C:\WINDOWS\SYSTEM\msxml16.dll returned 0996
+GetInstallSectionName returning [DefaultInstall]
+DllUnRegisterServer returned 0001 for C:\WINDOWS\SYSTEM\msxml16.dll
+OCX loadlib for C:\WINDOWS\SYSTEM\tdc16.dll returned 2f56
+DllUnRegisterServer returned 0001 for C:\WINDOWS\SYSTEM\tdc16.dll
+OCX loadlib for C:\WINDOWS\SYSTEM\msador16.dll returned 2f56
+DllUnRegisterServer returned 0001 for C:\WINDOWS\SYSTEM\msador16.dll
+OCX loadlib for C:\MSIE50\enroll.dll returned 25be
+DllUnRegisterServer returned 0001 for C:\MSIE50\enroll.dll
+OCX loadlib for C:\WINDOWS\SYSTEM\mswb16.dll returned 2a8e
+DllUnRegisterServer returned 0001 for C:\WINDOWS\SYSTEM\mswb16.dll
+OCX loadlib for C:\WINDOWS\SYSTEM\msiefav.dll returned 299e
+GetInstallSectionName returning [DefaultInstall]
+DllUnRegisterServer returned 0001 for C:\WINDOWS\SYSTEM\msiefav.dll
+OCX loadlib for C:\WINDOWS\SYSTEM\msiehist.dll returned 2a26
+GetInstallSectionName returning [DefaultInstall]
+DllUnRegisterServer returned 0001 for C:\WINDOWS\SYSTEM\msiehist.dll
+OCX loadlib for C:\WINDOWS\SYSTEM\mshtml16.dll returned 230e
+DllUnRegisterServer returned 0001 for C:\WINDOWS\SYSTEM\mshtml16.dll
+GetInstallSectionName returning [DefaultInstall]
+DllUnRegisterServer returned 0001 for C:\WINDOWS\SYSTEM\msieschd.dll
+RegisterOCXs, Failed get translated line, filename: C:\WINDOWS\msdownld.tmp\ASE000.tmp\Browser.inf, section: UnRegisterOCXSection.browser
+Timing rates: Download: 0, Install 31000
+OnStopComponent:
+   ID: BASEIE_Win16
+   HRESULT: 0 (OK)
+   Phase: 8
+   Status: 64
+
+****** UnInstall for component - JAVA_Win16****** 
+OnStartComponent:
+   ID: JAVA_Win16
+   Download: 0 KB
+   Install 1352 KB
+Space remaining on windows drive: 255968
+File extraction: C:\WIN_EXE\IE5FUL16\java.cab, Result: 0 (OK)
+Launching Inf - inf: C:\WINDOWS\msdownld.tmp\ASE000.tmp\java.inf, section: Default
+RunSetupCommand Flags == 80d
+GetInstallSectionNameEx returning [DefaultInstall.Uninstall]
+Timing rates: Download: 0, Install 61600
+OnStopComponent:
+   ID: JAVA_Win16
+   HRESULT: 0 (OK)
+   Phase: 8
+   Status: 64
+
+****** UnInstall for component - BASEIE_Win16****** 
+Dependency check - IE_CORE_Win16
+
+****** UnInstall for component - IE_CORE_Win16****** 
+OnStartComponent:
+   ID: IE_CORE_Win16
+   Download: 0 KB
+   Install 1639 KB
+Space remaining on windows drive: 255968
+File extraction: C:\WIN_EXE\IE5FUL16\ieCore.cab, Result: 0 (OK)
+Launching Inf - inf: C:\WINDOWS\msdownld.tmp\ASE000.tmp\ieCore.inf, section: Default
+RunSetupCommand Flags == 80d
+GetInstallSectionNameEx returning [DefaultInstall.Uninstall]
+OCX loadlib for C:\WINDOWS\SYSTEM\mlang16.dll returned 3e4e
+GetInstallSectionName returning [DefaultInstall]
+DllUnRegisterServer returned 0001 for C:\WINDOWS\SYSTEM\mlang16.dll
+OCX loadlib for C:\WINDOWS\SYSTEM\urlmon16.dll returned 1126
+DllUnRegisterServer returned 0001 for C:\WINDOWS\SYSTEM\urlmon16.dll
+RegisterOCXs, Failed get translated line, filename: C:\WINDOWS\msdownld.tmp\ASE000.tmp\ieCore.inf, section: RegisterOCXSection.core
+Timing rates: Download: 0, Install 58060
+OnStopComponent:
+   ID: IE_CORE_Win16
+   HRESULT: 0 (OK)
+   Phase: 8
+   Status: 64
+OnStartComponent:
+   ID: BASEIE_Win16
+   Download: 0 KB
+   Install 8959 KB
+
+****** UnInstall for component - JAVA_Win16****** 
+OnStartComponent:
+   ID: JAVA_Win16
+   Download: 0 KB
+   Install 1352 KB
+Install Engine - No reboot required
+
+OnStopInstall:
+   HRESULT: 0 (OK)
+   Status: 64
+InstallJob return :00000000:
+Run setup command. File:C:\WINDOWS\TEMP\~ase056E.TMP\IESetup.inf: Section:bootUninstall.Win16:
+GetInstallSectionName returning [DefaultInstall]
+RunSetupCommand returned :00000bc2!:
+Version to check against: 5,0,913,2207
+HaveBasciComponents Failed (Missing regdat)
+Run setup command. File:C:\WINDOWS\TEMP\~ase056E.TMP\IESetup.inf: Section:IESetup.AddGroups.un:
+GetInstallSectionName returning [DefaultInstall]
+Running 16 bit Grpconv API
+RunSetupCommand returned :00000000!:
+Run setup command. File:C:\WINDOWS\TEMP\~ase056E.TMP\IESetup.inf: Section:IESetup.Success.Uninstall:
+GetInstallSectionName returning [DefaultInstall]
+RunSetupCommand returned :00000000!:
+UnRegistering unpacked version :.
+Done:  Settings = 0x9.
+Terminated BigFont.
+unloaded advpack.
+Deleted bitmap object.
+unloading sucomct2.dll.
+Removed Temp files and directories.
+Date:2/8/2016 (M/D/Y) Time:19:0:33
+End of Logging.

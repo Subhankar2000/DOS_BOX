@@ -1,0 +1,56 @@
+WinZip(R) version 5.0
+Copyright (C) 1991-1993 Nico Mak Computing, Inc.
+All Rights Reserved
+
+This file provides information for Shareware Distributors and Disk Vendors
+who wish to distribute the WinZip 5.0 package, including an extract from
+the license agreement and suggested program descriptions and keywords.
+
+                               Distribution
+
+The complete license agreement is contained in the file LICENSE.TXT.
+
+The following paragraph is an extract from the license agreement
+regarding the distribution of the Shareware version of WinZip:
+
+    You are specifically prohibited from charging, or requesting
+    donations, for any such copies, however made; and from distributing
+    the software and/or documentation with other products (commercial or
+    otherwise) without prior written permission, with one exception:
+--> Disk Vendors approved by the Association of Shareware Professionals
+--> are permitted to redistribute WinZip, subject to the conditions in
+--> this license, without specific written permission.
+
+                Suggested One Line Program Description:
+
+Archive utility with built-in ZIP, full drag & drop support, and more.
+
+                          Suggested Keywords:
+
+WinZip Windows ZIP UNZIP ARJ LZH SFX ARC Drag Drop Archive Utility
+ASP Shareware Virus Scan
+
+                         Suggested Description
+
+WinZip brings the convenience of Windows to the use of ZIP files.  New
+in version 5.0 is PKZIP-compatible built-in zipping, so PKZIP is not
+needed for basic archive operations.  WinZip features an a powerful yet
+intuitive point-and-click drag-and-drop interface for viewing, running,
+extracting, adding, deleting, and testing files in ZIP, LZH, and ARC
+files, including self extracting archives.  Optional virus scanning
+support is included.
+
+                           Other Information
+
+Requirements:  Windows 3.1 or Windows for Workgroups.  No other programs
+               are required for basic ZIP operations.  Optional features
+               require external programs, including the shareware
+               PKZIP/PKUNZIP product from PKWARE, Inc. or ARJ from Robert
+               Jung or LHA.EXE from Haruyasu Yoshizaki.  WinZip interfaces
+               to several programs to access ARC files and optionally runs
+               most virus scanning utilities, including Windows-based
+               virus scanners.
+
+Registration:  $29 (includes shipping) to receive disk with latest version
+
+Author:        Nico Mak Computing, Inc, P.O. Box 919 Bristol, CT 06011-0919

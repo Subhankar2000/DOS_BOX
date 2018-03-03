@@ -1,0 +1,117 @@
+WinZip(R) version 5.0
+Copyright (C) 1991-1993 Nico Mak Computing, Inc.
+All Rights Reserved
+
+***************************************************************
+***                                                         ***
+*** FOR INSTALLATION INSTRUCTIONS SEE THE FILE "README.TXT" ***
+***                                                         ***
+*** New users: see the "Brief Tutorial" in the online help. ***
+***                                                         ***
+***************************************************************
+
+***************************************************************
+*** Press the F1 key at any time while running WinZip for   ***
+*** help or to access the complete online documentation.    ***
+***************************************************************
+
+Have you ever used a BBS or CompuServe?  If so, you've probably
+encountered ZIP files.  Are you a Windows user?  If so, WinZip is
+THE way to handle these archived files.
+
+WinZip brings the convenience of Windows to the use of ZIP files
+without requiring PKZIP and PKUNZIP.  It features an intuitive
+point-and-click drag-and-drop interface for viewing, running,
+extracting, adding, deleting, and testing files in archives.  ARJ,
+LZH, and ARC files are supported via external programs.  WinZip
+interfaces to most virus scanners.
+
+Here's what the magazine reviews say about WinZip:
+
+One of the "Top 10" Windows Utilities, CompuServe Magazine, 10/93
+One of the "20 Must-Have Windows Utilities", Windows User, 6/93
+"Archive Manager Extraordinaire", Windows Sources, 5/93
+"WinZip 4.0 improves on an already impressive product, making
+   archiving a simple task for Windows users", Windows User 5/93
+1993 WIN100 Award Winner, Windows Magazine, 2/93
+"Repeatedly charms you when you have to ZIP and unZIP ...
+   an excellent Shareware utility" Windows Magazine, 12/92
+"Our copy gets quite a daily workout" Windows User 11/92
+"The most comprehensive Windows front-end to PKZIP"
+   Ziffnet Threads, 11/92
+"Does all your compression chores with ease" Computer Shopper, 10/92
+"Must-Have Shareware Treasure" Compute, 10/92
+"The perfect Windows interface for LHA, PKZIP, ARC, and your
+    favorite DOS virus scanner" PC World, 10/92
+"Greatly facilitates archive Management" Windows Magazine, 9/92
+"Powerful yet Intuitive" PC World, 8/92
+"Hot Product" Inside Microsoft Windows, 8/92
+"WinApp of the Month" PC Computing, 3/92
+
+WinZip is extremely easy to use!  To open an archive simply double
+click on an archive listed in the File Manager, drag and drop an
+archive onto WinZip, or use the standard Open dialog.  The main
+WinZip window features a list box with the names, sizes, and
+date/time stamps of all files in the open archive.  This list can
+be scrolled and sorted on any field.  A tool bar provides fast
+access to commonly used actions.  All options (including window
+size and position) can be saved and restored.  Extensive context
+sensitive help is always available.
+
+Double clicking on a file in the main window has the same effect
+as double clicking in the File Manager.  First the file is
+extracted from the archive.  If the file is executable, it is run.
+Otherwise, the file is opened by the appropriate application (for
+example, Windows Write for *.WRI files) based on standard Windows
+associations.
+
+The Windows 3.1 Drag and Drop Interface is fully supported.  You
+can drag and drop files from WinZip to other applications.  WinZip
+will extract the files before dropping them on the target
+application.  The target application will treat the files as if
+they had been dropped by the File Manager.  You can also drop
+archives on WinZip to open them, or drop files on WinZip to add
+them to the open archive.
+
+WinZip's unique CheckOut Facility makes it easy to quickly install
+files in archives.  Click on the CheckOut button to extract all
+files and create a Program Manager group for all files in the
+archive.  This group will contain one icon for each file.  Double
+click on an icon to view the corresponding file with the
+appropriate application.  WinZip will optionally delete the
+CheckOut files and Program Manager group.
+
+WinZip requires Windows 3.1 or Windows for Workgroups.  While no
+other programs are required for basic operations involving ZIP
+files, optional features require one or more external programs,
+including PKZIP and PKUNZIP product from PKWARE, Inc, LHA.EXE from
+Haruyasu Yoshizaki, or the Shareware ARJ product from Robert Jung.
+WinZip interfaces to several programs to access ARC files and
+optionally runs most virus scanning utilities.  See the online
+help for details.
+
+WinZip is distributed as Shareware.  This means that users are
+encouraged, subject to restrictions described in the License
+Agreement, to share copies of this program with friends,
+associates and bulletin boards.  Please remember that if you use
+this software you are required to pay the registration fee of $29
+as described in the License Agreement (LICENSE.TXT).
+
+This program is produced by a member of the Association of
+Shareware Professionals (ASP).  ASP wants to make sure that the
+shareware principle works for you.  If you are unable to resolve a
+shareware-related problem with an ASP member by contacting the
+member directly, ASP may be able to help.  The ASP Ombudsman can
+help you resolve a dispute or problem with an ASP member, but does
+not provide technical support for members' products.  Please write
+to the ASP Ombudsman at 545 Grover Road, Muskegon, MI 49442 or
+send a CompuServe message to the ASP Ombudsman at 70007,3536.
+              _______
+         ____|__     |               (R)
+      --|       |    |-------------------
+        |   ____|__  |  Association of
+        |  |       |_|  Shareware
+        |__|   o   |    Professionals
+      -----|   |   |---------------------
+           |___|___|    MEMBER
+

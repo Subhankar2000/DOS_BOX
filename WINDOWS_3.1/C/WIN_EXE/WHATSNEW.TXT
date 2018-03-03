@@ -1,0 +1,85 @@
+WinZip(R) version 5.0
+Copyright (C) 1991-1993 Nico Mak Computing, Inc.
+All Rights Reserved
+
+The following is a list of changes in WinZip 5.0.  For a list of
+changes in earlier versions see the section titled "Version
+History" in the online help.
+
+- Added PKZIP-comptiable built-in zipping, so PKZIP is not needed
+  for basic archive management.  Note that two advanced features,
+  disk-spanning and encryption, still require PKZIP.
+
+- Added support for Windows-based virus scanners.  Two scanners
+  are automatically detected by WinZip:
+
+    NAVW, distributed with Norton Desktop for Windows 2.2
+    WNAPVIR, distributed with Central Point Desktop for Windows
+
+  The MWAV.EXE scanner distributed with MS-DOS 6.0 is not
+  supported because it does not provide command line switches for
+  automation.
+
+- Added File/Information dialog box (shortcut:  click on status
+  line while WinZip is active).
+
+- Added support for international characters in archive names and
+  files in archives.
+
+- Built-in unzipping is used when running DOS virus scanners.
+
+- Added built-in Actions/Test operation for ZIP files.
+
+- Multiple WinZip windows (tasks) can now use the built-in
+  unzipping (and zipping) at the same time (earlier versions used
+  PKUNZIP for the second task).
+
+- Added new icon.
+
+- Internal unzipping is now used when fileids are specified in the
+  Extract dialog box (earlier versions used PKUNZIP in this
+  situation) .
+
+- The Optional Working Directory in the Directories dialog box can
+  now be used for removable media only.  By default the Optional
+  Working Directory is set to your temp directory and is used for
+  removable media only.
+
+- The CheckOut features now uses subdirectory information in
+  archives.
+
+- The focus in the "View Last Output" dialog box is now initially
+  on the OK button instead of the multi-line edit field.
+
+- Clicking on an inactive WinZip window no longer activates Abort
+  dialog during zip or unzip operation - you must activate the
+  window THEN click on it to get the Abort dialog box.
+
+- The extract operation will now issue an error message if you try
+  to overlay a file that is "in use" by Windows, even if SHARE is
+  not loaded.  For example, you can't accidentally replace the
+  copy of WINZIP.EXE that you are running, as this could cause a
+  crash.
+
+- Zero length ZIP files are now opened correctly.
+
+- Built-in unzipping now creates zero length files when
+  appropriate.
+
+- Built-in unzipping now handles hidden subdirectories.
+
+- The text of default button in the "Add" and "Drop" dialog boxes
+  reflects the selected action (Add, Freshen, Update, or Move).
+
+- If no CheckOut Base Directory is specified and the archive is on
+  a floppy WinZip suggests the Temp directory as the CheckOut base
+  directory.
+
+- Optional beep now only sounds if archive operation took over one
+  second.
+
+- Better sorting (e.g. sort by type also sorts by name).
+
+- Added "Always On Top" to the system menu.
+
+###

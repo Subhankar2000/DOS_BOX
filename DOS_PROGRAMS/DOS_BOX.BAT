@@ -1,0 +1,43 @@
+@Echo Off
+cls
+
+
+
+echo.          ษออออออออออออออออออออออออออออออออออออออออออออออออ[-]อ[X]อป
+echo.          บออออออออออออออออออออ  DOSBOX v0.74  ออออออออออออออออออออบ
+echo.          บ         อออออออออออออออออออออออออออออออออออ            บ
+
+echo.          บ      DOS BOX v0.74 -- Emulated DOS Version 5.0         บ 
+
+echo.          บ           อออออออออออออออออออออออออออออออออออ          บ
+echo.          บ                                                        บ
+echo.          บ                                                        บ
+
+
+echo.          บ MICROSOFT WINDOWS, TURBO C++ , QBASIC , GWBASIC , LOGO บ
+
+echo.          บ WINDOWS 3.1 , WINDOWS 2 , MICROSOFT DOS EXECUTIVE      บ
+
+echo.          บ MICROSOFT DOS SETUP , BORLAND C++ COMPILER , BORLAND C บ
+
+echo.          บ QUICK BASIC , GWBASIC , LANGUAGE OF GRAPHICS ORIENTED  บ
+
+echo.          บ DOS 8-BIT GAMES [ PACMAN , AIRBALL , GRAND PRIX RACE ] บ
+
+echo.          บ DOS PROGRAMS , QBASIC PROGRAMS , TURBO C++ PROGRAMS    บ
+echo.          บ                                                        บ
+echo.          บ                                                        บ
+echo.          บ           อออออออออออออออออออออออออออออออออออ          บ
+echo.          บ                   SUBHANKAR KARMAKAR                   บ
+
+echo.          ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+P:
+MOUSE
+C:

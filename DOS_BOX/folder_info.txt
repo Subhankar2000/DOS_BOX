@@ -1,0 +1,9 @@
+This folder is the main folder containing all the programs [ windows ] and files necessary for running the DOS_BOX or rather emulating 
+DOS in your new system , this also is comapitable with any DOS_BOX on any platform , sucha as it is ok with Windows , Mac , Ubuntu
+
+So , don't panic and follow the instructions to run Emulated DOS in your system , with lots and lots of options configured !
+
+Subhankar Karmakar
+D.A.V. Public School [ 2015 - 2017 ]
+E.C.E. Dept. - Asansol Engineering College [ 2017 - 2021 ]
+DOS-BOX Modified in 2015 , uploaded in March 2018

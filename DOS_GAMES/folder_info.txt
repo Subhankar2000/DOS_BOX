@@ -1,1 +1,6 @@
+This folder is the folder containing all the DOS Games [ 8 - BIT ] , this also is comapitable with any DOS_BOX on any platform , sucha as it is ok with Windows , Mac , Ubuntu
 
+Subhankar Karmakar
+D.A.V. Public School [ 2015 - 2017 ]
+E.C.E. Dept. - Asansol Engineering College [ 2017 - 2021 ]
+DOS-BOX Modified in 2015 , uploaded in March 2018

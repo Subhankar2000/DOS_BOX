@@ -1,0 +1,25 @@
+WinLOGO for Win3.1x and Win95: a program 
+to change the Win3.1x and Win95 startup logo.
+
+This program is a "bound" Windows and DOS
+program (i.e., it contains both a DOS and
+a Windows module, built into the .EXE file).
+The Windows startup logo is just a bitmap
+file in "RLE 4" format, which is built by
+the Windows setup program into WIN.COM.
+To change the Win3.1x startup logo, all you
+need to do is to create your own bitmap in
+"RLE 4" format, and then select it from the
+Winlogo menu. To change the Win95 logo, all
+you need is to select a 256 colour bitmap
+(320x400x256) from the Winlogo menu.
+Winlogo does the rest - it takes only about 
+1 second. For Win3.1x, Winlogo builds a new 
+Windows .COM file called WINCHG.COM. Run this, 
+instead of WIN.COM, and you will see your new 
+logo. 
+
+For Win95, it replaces the relevant bitmap file.
+
+Winlogo is shareware. Registration costs
+10.00 pounds Sterling; or $15.00 (U.S.).

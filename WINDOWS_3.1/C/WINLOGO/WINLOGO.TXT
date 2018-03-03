@@ -1,0 +1,147 @@
+
+Windows Logo Changer v3.0 (WINLOGO for Win3.1x and Win95)
+---------------------------------------------------------
+
+(c) Copyright, June 1996, Dr. A. Olowofoyeku.
+
+Documentation
+-------------
+
+This program is a utility to facilitate the process
+of making changes to the Windows 3.1x and Windows 95
+start up logo. It is written for MS-Windows 3.1x, and 
+Windows 95, contains both a DOS and a Windows module, 
+all within the same executable WINLOGO.EXE. If run from DOS, 
+the DOS module executes and if run from Windows, the Windows
+module executes. In Windows95, the Windows version executes
+all the time.
+
+NOTE: The program may or may not work correctly under Windows 3.0, 
+and will most certainly NOT work under pre-3.0 versions of Windows.
+
+The Windows 3.1x startup logo is actually just a bitmap,
+(in an RLE 4 encoded format) which is written into WIN.COM
+by Windows itself, or any other program, such as WINLOGO,
+that can make changes to the startup logo. The process
+is a bit involved if done through Windows, and is far
+from a straightforward business.  With WINLOGO, it simply
+involves selecting an RLE encoded bitmap from the menu,
+and the program takes care of the rest. The whole process
+takes just about 5 seconds.
+
+
+The Windows95 logo is an ordinary bitmaps with specficiations:
+320x400x256 colours.
+
+
+THE LOGO FILE
+-------------
+The default logo that Windows uses is called VGALOGO.RLE
+and exists in your Windows System directory. WINLOGO can
+always restore this if you choose it from the menu.
+However, WINLOGO also allows you to have such things as
+company logos, funny pictures, and the like, as your
+Windows startup logo, instead of the boring one that is
+supplied with Windows itself. This is because any RLE 4
+encoded bitmap file would do just as well as the VGALOGO.RLE
+that resides in your Windows System directory.
+
+For Windows 3.1x, you would need some utility, such as 
+WINGIF or PAINTSHOP PRO (both Shareware) to convert standard 
+Windows Paintbrush bitmap files into RLE 4 format. Under Windows95
+any bitmap editor can produce a bitmap in the required format.
+
+
+NOTE:
+
+Windows 3.1x
+------------
+  [1] The required format for the Win3.x1 bitmap is RLE 4 (not RLE 8)
+      and the bitmap must not contain more than 16 colours.
+  [2] The RLE file must not be bigger than 46k in size.
+      Otherwise the WINCHG.COM file that will be built will
+      not be usable. Windows will not be able to load it, or
+      even to start at all. If an RLE file selected from the
+      menu is too big, WINLOGO will inform you of this.
+
+
+Some sample RLE 4 bitmaps are supplied for you to play with.
+Most of them are third party bitmaps which I have simply
+converted from other formats to the RLE 4 encoded format.
+
+Windows95
+---------
+The required format for the bitmap is 320x400 in 256 colours. Any other
+specification for a bitmap file will not do.
+
+
+You can use Winlogo's viewer to view Windows .BMP and .RLE
+bitmap files, but some .RLE files (those with ZERO or negative
+compression) cannot be viewed.
+
+
+REGISTRATION
+------------
+WINLOGO is NOT a free program. It is distributed as a 
+shareware program. For my purposes, this means that you get 
+the program free and if you decide that you want to keep using
+it, then you are legally and morally obliged to REGISTER your
+copy. I have distributed the program in a completely uncrippled 
+state, and there are no nagging messages. I am relying on users 
+showing good faith and playing fair. This program took me a long
+time to develop and test, and I am not asking for much.
+
+If you find WINLOGO useful and intend to keep using it, I
+would ask you to please send the registration fee of œ10.00
+(10.00 British Pounds Sterling) or $15.00 (U.S. dollars).
+
+Please forward the fee to me at the address below, or please
+end it to you local REGISTRATION SITE (please see REGISTER.TXT
+for a list of my world wide registration sites). Please fill in
+the form in the file ORDER.FRM (or print the "REGISTRATION FORM"
+section in the on-line help).
+
+Payment of this fee confers the following benefits:-
+	[a] The satisfaction of being an honest person.
+	[b] A clear conscience.
+        [c] Good vibes
+        [d] You will be very cool indeed
+
+
+If you feel that WINLOGO is not worth paying for, then I ask you
+to please DELETE it from your disks immediately.
+
+Please note that since this program is not crippled or disabled in
+any way (and there are no nagging messages), NO DISKS will be sent
+when you register.
+
+
+DISCLAIMER
+----------
+The program WINLOGO is supplied AS IS. I do not guarantee
+anything other than that it will probably not kill YOU. You
+use WINLOGO at your own risk. I accept no responsibility for
+any damage or loss, physical, financial, or otherwise, that may
+result from the use, or purported use of WINLOGO, for any
+purpose whatsoever.
+
+If these terms are not acceptable to you, then you have NO
+license to use or test WINLOGO. You should DELETE it from
+your disks IMMEDIATELY.
+
+
+For comments, bug reports, and payment, please contact;
+
+Dr. A. Olowofoyeku
+268 Horwood,
+Newcastle,
+Staffs ST5 5BQ
+England,
+U.K.
+
+
+E-mail:
+-------
+Internet:   laa12@keele.ac.uk
+	    chief@mep.com
+

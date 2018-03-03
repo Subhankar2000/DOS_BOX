@@ -1,0 +1,83 @@
+              HISTORY FILE FOR WINLOGO
+              ------------------------
+
+
+v3.0 (June 1996)
+------------------
+1. Bitmap viewing capability added (for the Windows version only). 
+   Winlogo can now be used to view your .RLE and .BMP bitmaps. Some 
+  .RLE bitmaps have a negative compression ratio. Winlogo cannot 
+  view such bitmaps. If such a file is encountered, an error message 
+  is presented to the user.
+
+2. This version introduces the facility to change the Windows 95
+   startup logo.
+
+3. This version has been amended (if run from DOS) to take
+   an optional SECOND parameter ("/0"). If this is used as 
+   the second parameter, the DOS module will not pause for 
+   a keypress if the operation to change the Windows logo 
+   was successful.
+    e.g.,
+     WINLOGO C:\RLES\BLOOM.RLE /0
+
+   This does not work under Win95.
+
+
+
+
+v2.12 (July 1994)
+------------------
+1. Winlogo can now be run entirely from the DOS command prompt,
+   with the name of the RLE file to be used for the new logo
+   being supplied at the DOS prompt.
+
+  eg typing   "WINLOGO C:\BTIMAPS\FIRM.RLE" from the DOS command
+  prompt, or from a DOS window within Windows, will cause Winlogo
+  to use FIRM.RLE to build the new WINCHG.COM.
+
+2. A bug in the DOS module which caused the new .COM file not to be
+   built has been fixed.
+
+
+v2.11 (February 1994)
+---------------------
+This is a maintenance release for version 2.10
+
+
+v2.10 (October 1993)
+--------------------
+1. A minor bug that sometimes caused stack faults was fixed.
+
+
+v2.00 (April 1993)
+------------------
+1. DOS version now functionally equivalent to the
+Windows version.
+
+2. First full release of DOS version and Windows version,
+which both now reside within the same executable. Run it
+from DOS, you get the DOS version. Run it from Windows,
+you get the Windows version.
+
+v1.50 (Feb 1993)
+----------------
+New (beta) DOS version now supplied with the Windows
+version, with appropriate warnings.
+
+v1.25 (Feb. 1993)
+-----------------
+First public release. Windows version only.
+
+v1.20 (sometime in 1992)
+------------------------
+Even less buggy. A stable beta, and used by myself
+and close friends.
+
+v1.10 (sometime in 1992)
+------------------------
+Now less buggy. Beta release
+
+v1.00 (sometime in 1992)
+------------------------
+Rudimentary and buggy version. Alpha release

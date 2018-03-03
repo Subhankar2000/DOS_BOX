@@ -1,0 +1,226 @@
+MIXERSET UTILITY
+================
+
+The MIXERSET utility allows you to adjust the volume and other Mixer
+controls (such as balance, gain and tone) of the audio output and
+recording sources supported by your audio card.
+
+You can use the utility as a command at the DOS prompt or invoke the
+MIXERSET interface to control the Mixer settings through a full-screen
+window consisting of check boxes and sliders.
+
+The file provides you detailed information on using MIXERSET.  It is
+organized as follows:
+
+*	Knowing the MIXERSET Command
+*	Using the MIXERSET Command
+*	Starting the MIXERSET Control Screen
+*	Knowing the MIXERSET Control Screen
+*	Using the Mouse and Keyboard
+
+
+Knowing the MIXERSET Command
+----------------------------
+
+The Mixer is configured using the switches that follow the MIXERSET
+command. To use the MIXERSET command:
+1.	Change to your sound directory.
+2.	Type MIXERSET [switches] ...  and press <Enter>.
+
+where switches can be one or a combination of any of the following:
+
+	/? or /H	Displays help messages.
+	/Q		Runs MIXERSET without displaying the setting 
+			information.
+	/P		Sets the Mixer according to the PRESET settings in
+			the CTMIX.CFG file.
+	/MA:n;x		Sets the MASTER volume and balance of left and right 
+			channels.
+	/VO:n;x		Sets the VOICE volume and balance of left and right
+			channels.
+	/MI:n;x		Sets the MIDI volume and balance of left and right 
+			channels.
+	/CD:n;x		Sets the CD volume and balance of left and right
+			channels.
+    /LI:n;x     Sets the LINE-in volume and balance of left and right
+            channels.
+    /MIC:n      Sets the MICrophone volume.
+    /SP:n       Sets the PC SPEAKER volume.
+    /TR:n;x     Sets the TREBLE level and balance of left and right
+            channels (if available).
+    /BA:n;x     Sets the BASS level and balance of left and right
+            channels (if available).
+
+    NOTE: n specifies the volume level and ranges from 0 to 255, and x
+    specifies the balance of the left and right channels, and ranges
+    from -5 to +5.  x must be preceded by ';'.
+		
+    For example, /MA:200;5 sets the master volume at 200 and the
+    balance at 5 (this means that the volume will be reduced in the
+    left channel). /MA:;-5 setting reduces the volume in the right
+    channel.
+
+	/OPS:ss		Sets the audio output switches (OPSW) on or off.
+			ss represents one or a combination of CDz, LIz and 
+			MICz, where z is + (on) or - (off).
+
+			For example, /OPS:CD+ MIC- allows you to receive
+			CD-audio output.  It does not allow any sound passed 
+			through the microphone to be sent to the speakers.
+
+	/IPL:ss		Turns Left Input switches (IPLSW) on or off.
+			ss represents one or a combination of CDRz, CDLz, 
+			MDLz, MDRz, LIRz, LILz, and MICz, where z is + (on)
+ 			or - (off).
+
+        /IPR:ss         Turns Right Input switches (IPRSW) on or off.
+                        Same as /IPL.
+	
+	/IPG:l,r	Sets Input Gain (IPGAIN) of left (l) and right (r) 
+			channels.  Both l and r can be 1, 2 or 4.
+
+	For example, /IPG:4 sets both left and right channels to 4, /IPG:,4
+	sets the right channel to 4, and /IPG:4, sets left channel to 4.
+		
+	/OPG:l,r	Sets Output Gain (OPGAIN) of left (l) and right (r) 
+			channels.  Both l and r ranges from 1, 2 or 4.
+
+	/AGC:+|-	Turns Automatic Gain Control (AGC, if available) on 
+			(+) or off (-).
+
+You do not need to specify the entire string of each switch that you
+use, as a shortened string entry works equally well.  However, at
+least 2 characters from the beginning of the switch name must be
+specified with the exception of the following switches: /P, /H, /?,
+and /Q.   
+
+For example, MIXERSET /P is the same as MIXERSET /PRESET, and MIXERSET
+/MA:200;5 is the same as MIXERSET /MASTER:200;5.
+
+If you enter multiple MI, IP or OP switches, then priority is given to
+MIDI (for MI switch), IPGAIN (for IP switch), and OPGAIN (for OP
+switch).
+
+Using the MIXERSET Command
+--------------------------
+
+The following are some examples on how you can use MIXERSET:
+
+*   To set the PC speaker volume to 200:
+    1. Type MIXERSET /SP:200 and press <Enter>.
+
+*   To set the master volume to 200 with balanced output through the
+    left and right channels:
+    1.  Type MIXERSET /MA:200 and press <Enter>. If balance is not
+        specified, both channels will be set equally.
+
+*   To set all the above in one command:
+    1.  Type MIXERSET /SP:200 /MA:200;0 and press <Enter>.
+
+
+Starting the MIXERSET Control Screen
+------------------------------------
+
+To start the MIXERSET Control Screen:
+
+1.	Change to your sound directory.
+2.	Type MIXERSET and press <Enter>.
+	The MIXERSET Control Screen appears.
+
+
+Knowing the MIXERSET Control Screen
+-----------------------------------
+
+The MIXERSET Control Screen consists of the following components:
+
+*	Volume Slider
+*	Balance Slider
+*	Automatic Gain Control Check Box
+*	Save Button
+*	Input Box
+*	Output Box
+
+
+Volume Slider
+-------------
+Controls the volume levels of the input sources, and the levels of
+bass and treble.
+
+Balance Slider
+--------------
+The sliders control the balance of the left and right speakers for
+audio sources with stereo capability.  Moving the slider to the left
+decreases the volume of the right speaker but the left speaker volume
+is left consistent.  The opposite applies when you move the slider to
+the right.
+
+Automatic Gain Control Check Box
+--------------------------------
+The Automatic Gain Control (AGC) check box (if available)
+automatically adjusts input gain from the microphone to a level
+suitable for recording.
+
+Save Button
+-----------
+The Save button saves all changes made to the Mixer to the CTMIX.CFG
+file.  The new setting will be used the next time you preset the mixer
+setting with the command MIXERSET /P.
+
+Input Box
+---------
+The Input Box enables you to select the audio sources you want to
+control as input to the Mixer.  The audio sources available are MIDI,
+Line and Microphone input, and CD-audio.  You can direct these audio
+sources through the left or/and right input channels of your Mixer.
+
+NOTE:   To get a stereo sound effect, make sure that the left channel
+    signal of the audio source is directed to the Left-In channel and
+    the right signal to the Right-In channel.
+
+
+The Spin buttons increase or decrease the input gain.  
+
+NOTE:   The gain increases or decreases the amplification of an audio
+     source.
+ 
+
+Output Box
+----------
+The Output Box enables you to select the audio sources you want to
+control as output from the microphone, Line-ln, and CD-Audio to the
+left and right speakers.  You can select one or a combination of the
+above audio sources playing through the card.  
+
+
+Using the Mouse and Keyboard
+----------------------------
+
+Using the MIXERSET interface, the Mixer can be configured with a mouse
+or a keyboard.  
+
+For mouse control:
+*   Choose the option if it is a check box.
+*   Move the slider by the click and drag method or click at the
+    extreme end of the slide to increase or decrease the Volume, Tone
+    and Gain.
+*   To quit MIXERSET, choose the Control-menu box.
+
+For keyboard control:
+*   Press <Tab> to move from one group to another.
+*   Press <Shift+Tab> to move backwards to a previous group.
+*   Press the up or down arrow keys to move from one option to another
+    within a group.
+*   Press the left or right arrow keys to adjust
+    volume or gain.
+*   Press <Spacebar> or <Enter> to select or
+    deselect a check box.
+*   To quit MIXERSET, press <Esc>.
+
+
+Note
+----
+
+Some of the features mentioned above may not be available on your audio
+card. For example - Bass, Treble, Output Gain, and Input Gain features are
+available only for advanced versions of the audio card. Use the MIXERSET /? 
+command to obtain the list of features supported by your card.

@@ -1,0 +1,14 @@
+[disks]
+1 =. ,"Audio Software Drivers",disk1
+
+[Installable.Drivers]
+SB16FM=1:sb16fm.drv,"Midi","Creative Stereo Music Synthesizer Driver",1:vsbpd.386,,
+SB16SND=1:sb16snd.drv,"Aux,Mixer,Wave,Midi","SB16 Wave/Aux/Mixer/MidiPort Driver",1:vsbpd.386,,
+
+[SB16FM]
+1:midimap.cfg
+
+[SB16SND]
+1:midimap.cfg
+1:cspman.dll
+

@@ -1,0 +1,171 @@
+
+SOFTWARE PACKAGE LISTING
+========================
+
+The following files will be installed to your hard disk.
+
+In the \SB16 directory.
+
+   FILELIST.LST - This file
+   README  .COM - DOS program to display the README.TXT file
+   README  .TXT - Text file containing latest information not in the
+                  manual at print time
+   CQA     .COM - DOS program to display the CQA.TXT file
+   CQA     .TXT - Text file for commonly asked questions and the
+                  answers to them
+   DIAGNOSE.EXE - DOS Diagnostic program
+   MIXERSET.EXE - DOS mixer controller
+   MIXERSET.TXT - DOS mixer controller help file
+   CTMIX   .CFG - DOS mixer controller configuration file
+   WINSETUP.EXE - Sound Blaster Windows 3.1 applications set up program
+   WINSETUP.INF - WINSETUP program information file
+   INSTALL .EXE - DOS installation program
+   INSTALL .PVL - Compressed library for INSTALL.EXE
+
+In the \SB16\DRV sub-directory.
+
+   AUXDRV  .DRV - Auxiliary driver for controlling volume
+   CT-VOICE.DRV - Loadable driver for voice (memory version)
+   CTVDSK  .DRV - Loadable driver for voice (disk version)
+   CTWMEM  .DRV - Loadable driver for wave (memory version)
+   CTWDSK  .DRV - Loadable driver for wave (disk version)
+   CTMIDI  .DRV - Loadable driver for MIDI (General MIDI) (memory version)
+   CTMMSYS .SYS - Physical-level device driver for SB16 multimedia
+                  architecture
+   CTSB16  .SYS - Integration device driver for SB16 multimedia
+                  architecture
+
+In the \SB16\SAMPLES sub-directory:
+
+   *       .MID - Sample Midi files
+   *       .WAV - Sample wave files
+
+
+In the \SB16\WINAPPL sub-directory:
+
+   REMOTE  .EXE - Creative Remote controller
+   REMOTE  .HLP - Creative Remote controller help file
+   CTCD    .EXE - Creative CD Player
+   CTCD    .HLP - Creative CD Player help file
+   CTWAV   .EXE - Creative Wave Player
+   CTWAV   .HLP - Creative Wave Player help file
+   CTMIDI  .EXE - Creative Midi Player
+   CTMIDI  .HLP - Creative Midi Player help file
+   CTMIXER .EXE - Creative Mixer
+   CTMIXER .HLP - Creative Mixer help file
+   SOUNDOLE.EXE - Creative Wave OLE server
+   SOUNDOLE.HLP - Creative Wave OLE server help file
+   CTWAVE  .EXE - Creative WaveStudio program
+   CTWHELP .HLP - Creative WaveStudio help file
+   *       .ICO - Icon for help files
+
+In the \SB16\WINDRV sub-directory:
+
+   VSBPD   .386 - Windows virtual device driver
+   MIDIMAP .CFG - Windows MIDI map configuration file
+   SB16FM  .DRV - Voyetra / Sound Blaster SuperSAPI FM Driver
+   SB16SND .DRV - Wave and MIDI driver
+   OEMSETUP.INF - Windows set up file
+   CSPMAN  .DLL - Advanced Signal Processor dynamic link library
+   CTRES   .DLL - Creative's resources dynamic link library
+   CTCCW   .DLL - Creative's custom controls for Windows dynamic link
+                  library
+   CTL3D   .DLL - Windows 3D effect dynamic link library
+   BWCC    .DLL - Borland's Windows custom control dynamic link
+                  library
+   CTWFLT  .DLL - Creative's Wave filter manager
+   WFLT0001.DLL - Wave filter for PCM format
+   WFLT0002.DLL - Wave filter for MS ADPCM format
+   WFLT0006.DLL - Wave filter for CCITT A-Law format
+   WFLT0007.DLL - Wave filter for CCITT u-Law format
+   WFLT0011.DLL - Wave filter for IMA/DVI ADPCM format
+   WFLT0200.DLL - Wave filter for Creative ADPCM format
+   CTRCC   .DLL - Creative's resources custom control
+   CTREMOTE.DLL - Creative's remote control dynamic link library
+   CTREMOTE.INI - Creative's remote control initialization file
+   WFM0006 .ACV - Windows driver for software CODEC for CCITT A-Law
+   WFM0007 .ACV - Windows driver for software CODEC for CCITT u-Law
+   WFM0011 .ACV - Windows driver for software CODEC for IMA/DVI ADPCM
+   WFM0200 .ACV - Windows driver for software CODEC for Creative ADPCM
+   MSMIXMGR.DLL - Mixer manager dynamic link library
+
+
+The following files will be installed where applicable:
+
+For Non Plug-and-Play audio card:
+---------------------------------
+In the \SB16\WINAPPL sub-directory:
+   CTCONFIG.EXE - SB Configuration program
+   CTAUDIO .HLP - SB Configuration help file
+   CTAUDIO .ICO - SB Configuration icon file
+
+For Non Plug-and-Play audio card with Power Management:
+-------------------------------------------------------
+In the \WINAPPL directory.
+   CTPOWER .HLP - Power Management Help file
+
+For audio card with Advanced Signal Processor
+---------------------------------------------
+  In the \SB16\CSP sub-directory.
+   WO0006  .CSP - Routine for CCITT A-LAW compression for playback
+   WO0007  .CSP - Routine for CCITT u-LAW compression for playback
+   WO0200  .CSP - Routine for Creative ADPCM compression for playback
+   WI0006  .CSP - Routine for CCITT A-LAW compression for recording
+   WI0007  .CSP - Routine for CCITT u-LAW compression for recording
+   WI0200  .CSP - Routine for Creative ADPCM compression for recording
+   WFM0001A.CSP - Routine for PCM wave effects for playback
+   WFM0006A.CSP - Routine for CCITT A-Law compression for recording and
+                  playback
+   WFM0007A.CSP - Routine for CCITT u-Law compression for recording
+                  and playback
+   WFM0011A.CSP - Routine for IMA/DVI ADPCM compression for recording
+                  and playback
+   WFM0200A.CSP - Routine for Creative ADPCM compression for recording
+                  and playback
+   WFM0202A.CSP - Routine for Creative FastSpeech 8 compression for
+                  recording and playback
+   WFM0203A.CSP - Routine for Creative FastSpeech 10 compression for
+                  recording and playback
+
+In the \SB16\DRV sub-directory.
+   CSP     .SYS - Device driver for SB16 Advanced Signal Processor
+
+In the \SB16\WINDRV sub-directory:
+   WFM0202 .ACV - Windows driver for software CODEC for Creative
+                  FastSpeech 8
+   WFM0203 .ACV - Windows driver for software CODEC for Creative
+                  FastSpeech 10
+
+For audio card with 3D Sound Enhancement:
+-----------------------------------------
+In the \SB16 directory.
+   CT3DSE  .EXE - DOS program to enable/disable 3D Sound Enhancement
+
+For audio cards with Power Management:
+--------------------------------------
+In the \SB16 directory.
+   POWERSET.EXE - DOS program to enable/disable Power Management
+
+For audio card with C16S chipset:
+---------------------------------
+In the \SB16 directory.
+   GAMEPORT.EXE - DOS program to enable/disable game port
+
+
+The following files will be copied to your Windows or Windows \SYSTEM
+directory where applicable.  You should not have duplicate copies of
+these files in both directories.
+
+   The following files should reside in your WINDOWS directory:
+
+      CTRES.DLL        CTCCW.DLL        BWCC.DLL         CTREMOTE.DLL
+      CTRCC.DLL        CTREMOTE.INI     CTSFRAME.DLL
+
+   The following files should reside in your WINDOWS\SYSTEM directory:
+
+      VSBPD.386        SB16SND.DRV      SB16FM.DRV       MIDIMAP.CFG
+      CSPMAN.DLL       WFM0006.ACV      WFM0007.ACV      WFM0011.ACV
+      WFM0200.ACV      WFM0202.ACV      WFM0203.ACV      CTL3D.DLL
+      CTWFLT.DLL       WFLT0001.DLL     WFLT0002.DLL     WFLT0006.DLL
+      WFLT0007.DLL     WFLT0011.DLL     WFLT0200.DLL     MSMIXMGR.DLL
+

@@ -1,0 +1,47 @@
+[General]
+CardFeature=NNNNNNNY
+InstallSource=D:\SB16W3X\
+RestartWindows=No
+MiscEdits=No
+RemoveSBProVol=No
+AddSndblstSection=No
+Mixer=winappl\ctmixer.exe
+DisplayIntroDialog=No
+
+[Introduction]
+"This program will create the audio program group window."
+
+[End]
+"Audio Program Group Window is created."
+
+[ConflictDrivers]
+
+[ConflictDevices]
+
+[Windows]
+
+[Windows.System]
+
+[Ini]
+
+[progman.groups]
+"Audio Software", Audio.grp
+
+[Audio.grp]
+"Creative Mixer", winappl\ctmixer.exe
+"How to use Creative Mixer", winappl\ctmixer.hlp,C:\SB16\winappl\ctmixer.ico
+"Soundo'LE", winappl\soundole.exe
+"How to use Soundo'LE", winappl\soundole.hlp,C:\SB16\winappl\soundole.ico
+"SB Configuration", winappl\ctconfig.exe
+"How to use SB Configuration", winappl\ctaudio.hlp,C:\SB16\winappl\ctaudio.ico
+"Creative MIDI", winappl\ctmidi.exe
+"How to use Creative MIDI", winappl\ctmidi.hlp,C:\SB16\winappl\ctmidi.ico
+"Creative Wave", winappl\ctwav.exe
+"How to use Creative Wave", winappl\ctwav.hlp,C:\SB16\winappl\ctwav.ico
+"Creative CD", winappl\ctcd.exe
+"How to use Creative CD", winappl\ctcd.hlp,C:\SB16\winappl\ctcd.ico
+"Creative Remote", winappl\remote.exe
+"How to use Creative Remote", winappl\remote.hlp,C:\SB16\winappl\remote.ico
+"WaveStudio", winappl\ctwave.exe
+"How to use WaveStudio", winappl\ctwhelp.hlp,C:\SB16\winappl\ctwhelp.ico
+

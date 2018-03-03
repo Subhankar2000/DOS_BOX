@@ -1,0 +1,597 @@
+263
+
+; Aliases
+
+You can create aliases to objects by highlighting them, dragging them to another window, folder or shortcut, and then releasing the mouse button while holding down the Shift key.
+
+Aliases eat up a fair amount of memory when they are being displayed, so if you frequently use folders containing many aliases, remember to close the windows after you have finished with them.
+
+You can convert aliases into Start Menu items by simply dragging and dropping the aliases into the Start Menu Properties dialog.  The information held by the alias is added to the Start Menu, rather than information about the alias file itself.
+
+In the Large Icons view, aliases are always displayed using their own caption.  If you give a file description to an alias file, you need to switch to List View to see the description.  (Make sure the file description column is made visible).
+
+You cannot create an "alias of an alias".  If you attempt to do so, the alias is copied instead.
+
+If you drag an alias onto the desktop, the resulting shortcut points to the same object as the alias, rather than at the alias.
+
+You can make the effect of floating program groups by creating folders containing aliases to your programs.  Then, drag these folders onto the desktop to make shortcuts.
+
+When you are browsing the web, you can quickly create an alias to the current web page.  Open an icon window and choose Create Alias from the window's popup menu.  Calmira then fills in the URL and caption for you.
+
+You can create an alias in any icon window by choosing the Create Alias command from the window's popup menu.
+
+
+; Shortcuts
+
+You can create a shortcut without having to find the source object first, by right clicking on the desktop and choosing one of the new shortcut types from the submenu.
+
+You shouldn't put too many shortcuts on the desktop, because each one is a minimized window and will use up some resources.
+
+You can create a new folder on the desktop by opening the Desktop menu and choosing to make a new folder shortcut.  Type in a caption and the name of a new folder, then press OK, and Calmira will offer to create the folder for you.
+
+You can stop shortcuts from "slipping" when you open them by setting the "Only move when caption is dragged" option in the Desktop Properties dialog.  To open a shortcut's popup menu, click once on the caption.
+
+You can make shortcuts faster to use by selecting the "Click once to activate" option from the Desktop Properties dialog.
+
+You can change the type of an alias or shortcut.  Open the Properties dialog and click on the second label down, to cycle through the possible values.
+
+You can quickly create an Internet shortcut to the web page you are viewing.  Right click on the desktop and choose Internet from the New Shortcut menu.  Calmira then fills in the URL and caption for you.
+
+
+; 4DOS descriptions
+
+4DOS file descriptions are supported by many other programs besides 4DOS itself.  To help maintain integrity when using such utilities, set the checkbox to keep descriptions up to date with sessions of 4DOS (in the File System Properties dialog).
+
+If you use other utilities that also make use of 4DOS file descriptions, it's best to refresh icon windows when you think that some descriptions may have changed.  This prevents inconsistencies when Calmira next saves any descriptions.
+
+To give your files longer descriptions, you can choose not to display descriptions as captions, and switch to the List View mode to see the descriptions next to each filename.
+
+You can choose a filename to store your file descriptions in.  The default name is descript.ion, and you can change it by assigning a filename to the DescriptionFile entry in the [File system] INI section.
+
+When you save or create files, you can spend a few seconds giving a meaningful file description to important files with unclear MS-DOS names.  This will save to a lot of browsing and inspection time later on!
+
+You can quickly describe group of files by selecting them all before invoking the Describe command.  Press Enter to accept each description, and Esc to end the operation but keep the accepted descriptions.
+
+
+; Bin
+
+You can restore objects from the bin by dragging them into an icon window, shortcut, or alias.
+
+You can make use of the Bin when spring cleaning your hard disk -- it gives you a chance to review the files before finally deleting them.  Remember to configure the bin to leave the trash alone!
+
+You can empty the Bin without opening its window.  When it is showing as an icon, right click on it once and choose Empty bin from the popup menu.
+
+You can speed up the Bin by configuring it to store trash on a local disk drive.  See the help file topic on the Bin for more details.
+
+The Bin takes longer to load if it contains a large amount of trash.  This is because it needs to confirm the existence and sizes of the files.
+
+You can hide the bin completely by adding Visible=0 to the [Bin] section of Calmira.ini.
+
+You can examine the contents of a folder in the bin.  Look in the [Trash] section of Calmira.ini to see where the folder has been moved to, then open an icon window using the Open Folder desktop command.
+
+If you use multiple storage locations for the bin, you can hide the folders and make them read-only to prevent them from being accidentally deleted.  It's also a good idea to keep them in a seldom accessed part of the directory tree.
+
+; Desktop
+
+You can bring Calmira to the front when it is not active by holding down the left mouse button on the desktop, and then right clicking.  This is useful for uncovering shortcuts and icon windows.
+
+When Calmira is active, you can open the Computer window by holding down the left mouse button on the desktop, and then right clicking.  Repeat the operation if Calmira is not active.
+
+The Desktop Properties dialog lets you choose where to place new icon windows.  Cascading them keeps new windows close at hand; randomising them gives more even coverage of the desktop; saving locations can keep folders in convenient places.
+
+If you choose to save the position icon windows, then it's a good idea to clear out the [Window Positions] section once in a while.  Delete the lines with directories that no longer exist, and Calmira will have less entries to search.
+
+You can quickly close a window using a single click by selecting the "Right click on min/max button to close" option in the Desktop properties dialog.  This is a substitute for the new close button in Windows 95.
+
+When you want to switch to Calmira, and one of Calmira's dialog boxes is active but hidden, hold down the left button while right clicking on the desktop.  This saves you from having to move other windows out of the way.
+
+If you accidentally re-arrange your shortcuts using "Arrange Icons" from Task Manager or another utility, you can quickly restore them to their previous position.  Close all icon windows, open the About box, and click on the Calmira logo.
+
+You can right click on the desktop to show a popup menu that lets you open new windows without having to reach down to the Start Menu.
+
+You can quickly create a new folder by right clicking on the desktop and choose Open Folder.  If you type in a directory name that does not exist, Calmira will offer to create a new one for you before opening it in a new window.
+
+The Open Folder command from the desktop menu can accept wildcards to use as the filter for new windows.  For example, you can type c:\Windows\*.exe to see only programs.
+
+You don't always need to enter the drive letter for the Open Folder desktop command.  If you omit the drive, colon and backslash, Calmira assumes that the folder you want is on the same drive as your Windows installation.
+
+You can open the root directory of a drive by choosing Open Folder from the desktop menu and entering a drive letter followed by a colon.
+
+If the screen colours become distorted when Windows programs switch colour palettes (often giving you psychedelic wallpaper), all you have to do is right click on the desktop and choose Repaint screen, which forces every window to redraw itself.
+
+You can arrange minimized program icons without moving your shortcuts. Choose the Arrange Icons command from the desktop's popup menu, rather than using the Task Manager.
+
+You can align all the icons on the desktop by choosing the Line Up Icons command from the desktop's popup menu.
+
+You can minimize all open windows at once; just use your right mouse button to click on the desktop, and choose Minimize Programs from the Arrange sub-menu.
+
+You can hide all the windows and shortcuts belonging to Calmira.  Choose the Clear Desktop command from the desktop's popup menu.  Calmira will appear as one icon, and you can double click on it to restore the desktop.
+
+To arrange a large number of open icon windows, you can use the Cascade Browsers command from the desktop's popup menu to make them all visible.
+
+
+; Start Menu
+
+The Start Menu can be made slightly faster if you turn off the coloured highlight bar in the Start Menu Properties dialog.
+
+Calmira has an equivalent of Program Manager's "Startup" group.  Create a sub-menu of the Start Menu (anywhere), and give it the caption "Startup".  The programs you place in there will be launched when Calmira loads.
+
+The appearance of the icons in the Start Menu may depend on your video driver's default palette.  This may cause the menu to look different when you rebuild it while using a new video mode.
+
+Whenever you manually edit or replace START.INI, you should also delete the file BMPCACHE.BMP if you use menu icons.  This makes Calmira rebuild the menu when it loads, to make sure all the icons are correct.
+
+You can navigate through your Start Menu more quickly if you place sub-menus near the top of their parent menus.
+
+You can use your own bitmap for the Start Menu banner by placing a file Banner.bmp in Calmira's home directory.  See the help topic on customising bitmaps for more details.
+
+You can stretch the Start Menu Properties dialog to make more room for editing the menu tree.  Move the cursor to the edge of the dialog box until it changes shape to let you resize the window.
+
+To quickly edit a menu item in the Start Menu Properties dialog, you can double click on a leaf node to open the editor window.
+
+You can use 16 x 16 bitmap files (.BMP) for icons in the Start Menu, which are not distorted when drawn.  When you edit the menu item, specify the full pathname of a bitmap file in the Icon From field.
+
+You can add separator lines into the Start Menu, by creating an item with a hyphen [-] as the caption's first character.  Each separator must have a different caption, so you can use -1, -2, etc..
+
+You can add your Program Manager items into any part of Calmira's Start Menu by pressing the small program group button in the Start Menu Properties dialog.
+
+When you import Program Manager items into the Start Menu, the groups are placed at the level that the highlight bar is at.
+
+When you edit the Start Menu, you can copy an item by dragging it and holding down Ctrl before releasing the mouse.  Remember to give the new item a unique caption if it's in the same menu as the original.
+
+When you edit the Start Menu, you can move an item inside another one by dragging and holding down the Alt key before releasing the mouse.
+
+When you import Program Manager items into the Start Menu, existing items with the same captions are replaced.  Use this feature to update the Start Menu to reflect the contents of Program Manager.
+
+You can place documents, folders and Internet links in the Start Menu.  If you type in a URL in the Command Line field, Calmira will activate your web browser to open the location.
+
+You can break up parts of the Start Menu into equal sized columns.  Edit the parent menu's caption and add an asterisk to the front, followed by a digit between 2 and 9.  For example *3 will create three equal sections.
+
+You can change the default small icons used by the Start Menu for sub-menus, folders and commands. See the help topic on customising bitmaps for more details.
+
+To assign a hot-key to the Start Menu, use the caption of "Start".  When you press the hot-key combination, the Taskbar pops up (if it is hidden), and opens the menu.
+
+You can assign a hot-key to just part of the Start Menu.  Use the caption of the sub-menu you wish to pop up, and it will appear at the cursor position when you press the hot-key combination.
+
+You can include environment variables for the properties of a Start Menu item.
+
+You can edit the caption, working folder and show mode of Start Menu items without requiring a full rebuild.  Calmira just modifies the START.INI file and loads the menu without refreshing the icon cache.
+
+You can jump to the next or previous menu item of the same level in the Start Menu Properties dialog by pressing Ctrl+Up and Ctrl+Down.  This lets you quickly bypass expanded menus.
+
+You can press Ctrl+Left in the Start Menu Properties dialog to jump to the parent menu of the current menu item.
+
+If you have a Windows 95 keyboard, you can use the Start Menu key to pop up the Start Menu.  You can enable the Start Menu key in Start Menu properties.
+
+
+; Run dialog
+
+You can quickly open a web page by typing its URL into the Run Program dialog.
+
+You can use MS-DOS to rename files using wildcards.  From an icon window, choose the Run command from the window's menu.  Type in the rename command, check the DOS Command checkbox, then press Run.  Remember to refresh the window!
+
+You don't need to type pathnames in the Run dialog for programs and documents which are on your MS-DOS path.  For example, to edit your Windows initialisation file, just type "WIN.INI".
+
+You can open folders from the Run dialog, and make use of its history list to keep track of recently accessed folders.
+
+
+; Find dialog
+
+You can drag files from the Find Files dialog into icon windows or shortcuts/aliases to copy or move them.  Note that this feature does not work with file descriptions.
+
+You can drag files from the Find Files dialog into other programs such as Notepad.
+
+You can stretch the Find Files dialog to show more files by dragging one of its borders.
+
+You can open a file or folder shown in the Find Files dialog by double clicking.
+
+You can access the Open With dialog from the Find Files dialog by using the popup menu or pressing Ctrl+Enter.
+
+When you copy file details from the Find Files dialog to the clipboard, you can make more room for the Location column by adjusting the header above the listbox.
+
+You can go directly to a file or folder displayed in the Find dialog's listbox.  Select the item, and choose Open Parent from the popup menu.  An icon window is opened, and the item of interest is highlighted for you.
+
+You can change the drive that the Find Dialog searches by simply typing a single letter in the Start From combo box.  Calmira adds the rest of the path for you.
+
+The Find Files dialog can search much faster if you only specify one wildcard and clear the list before each search.  This is because it does not have to check for duplicate entries if there is only one search.
+
+You can open the Find dialog from the Explorer by selecting a folder and selecting Find... from the popup menu (or pressing CTRL-F).  The selected folder will appear in the Start From field.
+
+
+; Optimising
+
+You can make use of the [/], [*], [+] and [-] keys to close unwanted icon windows.  This quickly reduces the clutter on the desktop and saves memory.
+
+If you are running low on User resources, you can try decreasing the size of your Start Menu.
+
+If you are running low on System resources, you can try removing some shortcuts or using aliases instead.
+
+If Calmira is taking a long time to load, check that there is not too much trash in the Bin, which it needs to scan through.
+
+Calmira can access its INI file quicker if you keep the [Window Positions] section down to a reasonable size. If icon window positions are saved, one line is added for each folder that is opened, so clear it from time to time.
+
+
+; Computer window
+
+You can refresh the contents of the computer window by pressing F5 or choosing Refresh from the popup menu.  This detects all available drives and is useful if you have logged on to a network.
+
+You can drag files and folders onto the Computer icon to add them to the Start Menu.  The new items will appear in the tree the next time you open the Start Menu Properties dialog.
+
+You can customise the program icons in the Computer window by editing the [Programs] section.
+
+If you don't use the Desktop menu, some of the commands can be accessed from the Computer window's popup menu while it is minimized.
+
+To access the Computer window's popup menu while it is minimised (e.g. to open the help file), you can right click on the Computer icon.  The System Properties dialog determines whether the Computer's popup menu or the Start Menu is shown.
+
+You can open one of Calmira's property dialogs using the popup menu which appears when you right click between the icons of the Computer window.
+
+You can create your own version of the Computer window using a folder and aliases.  This can let you drag and drop objects into the drive icons.
+
+
+; Scripts
+
+You can use scripts to carry out multiple commands and run multiple programs with one click of the mouse.  Create a script that uses the Start command and assign it to a shortcut, alias or Start Menu item.
+
+You can run scripts from an MS-DOS session in Windows.  This lets you run Windows programs from the command line, and control features of Calmira such as opening icon windows and activating shortcuts.  Look in the help file for details.
+
+If you often use batch files in an MS-DOS window, you can easily make them generate scripts to control Calmira and run Windows programs for you.  Look in the help file for more details about writing scripts.
+
+The Start batch file lets you run a program or open a document from an MS-DOS window.  This saves you from having to open an icon window to execute a file which you can already see DOS.
+
+The Folder batch file lets you open an icon window from an MS-DOS window.  This saves you from typing in a long directory pathname to open an icon window if you are already there.
+
+The Open batch file lets you open files, Windows programs and folders from an MS-DOS window.
+
+The Explore batch file lets you open the Explorer tree from an MS-DOS window.  This saves you from typing travelling through the tree if you are already there.
+
+When you are running an MS-DOS box, you can launch another MS-DOS program in a new window using the supplied Start.bat.
+
+You can create a custom control panel applet for Calmira.  Write a set of script files to open each property sheet.  Then create aliases pointing to these scripts, and their folder now becomes a control panel.
+
+You can make aliases open dialog boxes and carry out special commands in the same way as Start Menu items.  Create an alias that points to a script file which uses the Macro command.  See the help topic on using scripts for more details.
+
+You can start a Windows-based program from a command prompt window, using the Open and Start batch files.
+
+
+; Environment
+
+You can use the %currentfolder% environment variable to launch a program using the currently displayed folder as the working directory.
+
+You can use the %droppedfiles% environment variable to control the placement of filenames on the command line, when you drop objects into a shortcut or alias.
+
+You can use the %filename% environment variable to control the placement of the filename when running programs from the Open With dialog, or the utilities in the File System Properties dialog.
+
+You can use the %calmira% environment variable to refer to Calmira's home directory.
+
+You can use the %comspec% environment variable to refer to the current MS-DOS shell.  This is useful if you often switch between different shell programs.
+
+You can use the %windir% environment variable to refer to the Windows directory.
+
+You can use the %currentdrive% environment variable to refer to the drive letter of the active icon window.  This is useful for running disk-related programs, and is also available from the Disk Properties dialog when you click on the drive icon.
+
+You can define your own environment variables in Calmira's [Environment] section.  This lets you avoid using absolute pathnames in your shortcuts, aliases and Start Menu items, so that they are automatically updated when you modify the environment string.
+
+You can use environment variables as simple macros, which work in the Run Program dialog and the Open Folder command.  This lets you substitute a long string of text (such as a command or folder name) for a shorter one surrounded by % signs.
+
+
+; Icon windows
+
+You can press Backspace to open the parent folder of an icon window.
+
+To select or deselect files using wildcards, you can press Ctrl+S in an icon window, or right click on the right hand label in the status bar.
+
+You an open the Disk Properties dialog from an icon window by right clicking on the left hand label on the status bar.  This shows you the space left on the current drive.
+
+You can associate a file type with a program by selecting a single file, and opening its Properties dialog.
+
+You can copy details of the selected files from an icon window to the clipboard by pressing Ctrl+C.  In the Large Icons and Small Icons view, this copies a list of captions.  In List View, it produces a directory listing similar to MS-DOS.
+
+You can obtain a customised directory listing by switching to List View and choosing the columns to be displayed, using the Set Filter dialog.  Then select the required files, and press Ctrl+C to copy the details to the clipboard.
+
+You can open the Explorer tree from an icon window by pressing Ctrl+E.  The icon window's directory is selected for you.
+
+You can open the Find Files dialog from an icon window by pressing Ctrl+F. The icon window's directory is used as the start path.
+
+You can print a file by selecting it and pressing Ctrl+P.  The file needs to be associated with a program that is capable of printing that type of file, e.g. Notepad can print text files.
+
+You can print a file by dropping it into the Print Manager window or icon.  The file needs to be associated with a program that is capable of printing that type of file, e.g. Notepad can print text files.
+
+You can open any folder while using an icon window, by pressing Ctrl+O and typing in the folder's pathname.
+
+You can run the Undelete program, specified in the File System Properties dialog, by pressing Ctrl+U.
+
+You can cascade icon windows by pressing Ctrl+F5.
+
+You can arrange the icons on the desktop by pressing Shift+F5 while using an icon window.
+
+You can minimize Calmira to clear the desktop by pressing F12 while using an icon window.
+
+To refresh the contents of an icon window, you can either press F5, or click on the left hand label in the status bar.
+
+You can close all icon windows except the active one by pressing Asterisk [*] on the numeric keypad.  This is useful for closing unwanted windows after you have searched around for a particular file.
+
+You can close all the ancestor windows of an icon window by pressing Plus [+] on the numeric keypad.  This is useful for closing unwanted windows after you have travelled straight down a tree branch to find a particular file.
+
+You can close all icon windows by pressing the slash key [/], either on the numeric keypad or on the main keyboard.
+
+You can select and deselect all files in a window by pressing Comma [,] and Full Stop [.] respectively.
+
+You can set the file filter for an icon window, and choose the details to show by pressing Question Mark [?].
+
+To change the view to Large Icons, Small Icons and List, you can press Shift+I, Shift+M and Shift+L respectively.
+
+You can hold down the Alt key while double clicking on a folder to open the folder in the same or a new window.  This is the reverse of the "Browse folders in same window setting" from the Desktop Properties dialog.
+
+To change the sorting order to Type, Name, Size and Date, you can press Shift+T, Shift+N, Shift+S and Shift+D respectively.
+
+You can open the root directory of the current drive from any icon window by pressing Backslash [\].
+
+To jump to the next filename beginning with a certain letter, you can just press that letter key.
+
+To open the root directory of any drive, you can press Ctrl and Shift together with the drive letter.
+
+When an icon window is only showing one label on the status bar, you can access the other label's mouse functions by holding down the Shift key before clicking on it.
+
+You can adjust the number of rows and columns used for automatic resizing of icon windows.  Look in the help file for details on how to edit the [Layouts] section of the INI file.
+
+You can temporarily override the "Browse folders in same window" feature by holding down ALT when you open a folder.  If the setting isn't on, holding down ALT activates it.
+
+You can find out how much space is used in a directory structure by selecting a group of folders and opening the Properties dialog.
+
+To select and deselect all files, you can click on the right hand label in the status bar.  If there are currently items selected, this clears the selection.  Otherwise, everything is selected.
+
+During a drag and drop operation, you can right click to toggle the operation between Copy and Move.  You can also change the initial drag mode by pressing Alt before dragging.  See the File System Properties dialog for options.
+
+When you want to drop files into a folder or program, but the target icon is scrolled out of view, you can drag the cursor over the scroll bar buttons to scroll the view as required.
+
+When there are lots of icon windows covering the desktop, you can quickly jump to any one of them by right clicking on a title bar.  This opens a popup menu that shows you all the currently open folders.
+
+You can browse folders using the same window by setting the option in the Desktop Properties dialog.  This prevents too many windows from opening.  Use Backspace or right click on the close box to move back up the tree.
+
+You can open the Explorer tree for any folder by holding down the Shift key while double clicking on the folder.
+
+You can reverse the modes of browsing in multiple windows or one window.  Hold down Alt while double clicking on a folder.  The folder is opened in the opposite way specified in the Desktop Properties dialog.
+
+If you leave the cursor over a file or folder icon, a popup hint will give you extra information.  For example, it can tell you the real name of a file which is displayed using its description, or conversely, the description when it is not shown.
+
+You can quickly inspect a file by holding down the Shift key while right clicking on it.  This is equivalent to choosing Inspect from the file's popup menu.
+
+You can quickly bring up the Open With dialog by holding down the Ctrl key while right clicking on a file.
+
+You can double click on an item in the Open With dialog instead of pressing the OK button.
+
+You can open the Properties dialog by holding down the Alt key while right clicking on a file or folder.
+
+To reverse the current selection in an icon window, you can hold down Ctrl when you click on the right hand label in the status bar.  This is very useful for selecting every file except for a few of them.
+
+You can select adjacent blocks of files and folders using the lasso tool.  After making a selection, start dragging the lasso from a selected item, and your old selection will be kept.
+
+You can drag file icons from Calmira into other programs, in the same way as using File Manager.
+
+You can deselect all objects in an icon window by clicking in an empty area.
+
+You can press Ctrl+Up or Ctrl+Down to scroll the contents of icon windows without changing the current selection.
+
+To draw a selection box around a group of files, click near a corner of the group, and then drag the rectangle to form the box.
+
+You can drag a file's icon into a program's icon to open the file using the program.  Turn this feature on from the File System Properties dialog.
+
+
+; Keyboard
+
+You can use the Alt Gr key for a hot-key combination by specifying Ctrl+Alt.  In Calmira, holding down Alt Gr is equivalent to pressing CTRL and ALT together.
+
+You can simulate a Windows 95 keyboard on a normal keyboard by assigning the hot-key Ctrl+Alt+Space to the Start Menu (the caption "Start").  This pops up the Start Menu when you press the spacebar while holding down Alt Gr.
+
+When you assign hot-keys, you can use the names of special keys such as Enter, Backspace, Delete etc..
+
+You can press Ctrl+Tab to cycle through all the windows in Calmira.
+
+
+; Taskbar
+
+You can terminate any "rogue" program using the Taskbar.  Right click on the Start button, choose Terminate Task, and the cursor changes shape.  Then left click on any button on the Taskbar to kill the related program.
+
+The Show Window Info command on the Start button's popup menu causes the popup hints on task buttons to show the task's module name and window class name.  Use these to help exclude particular windows from the bar.
+
+You can drag and drop files from Calmira and other programs onto the Taskbar's buttons.  The effect is the same as using File Manager to drop the files into minimized task icons.
+
+If a new task doesn't appear immediately on the Taskbar, you can click on another window, and change back to the new program again, which should notify the Taskbar.
+
+You can assign your own bitmaps on the Taskbar to show icon windows and the Explorer tree. See the help topic on customising bitmaps for more details.
+
+You can make the Taskbar display document names before program names on the bar's buttons.  This sometimes provides more information if the buttons are not wide enough to display the full caption.
+
+The Taskbar's popup hints always show the full path of icon windows even when the buttons are showing 8 letter directory names.
+
+The Taskbar can display your chosen icon for programs launched from shortcuts, aliases or Start Menu items.  This even works for Windows programs, because the Taskbar obtains icons directly from Calmira.
+
+The Taskbar can display different icons for each program instance.  For example, if you activate two shortcuts that open files using Notepad, each button can reflect the document being edited.
+
+
+; Display
+
+Calmira was designed with, and usually looks best with the plain 8 point MS Sans Serif font, with video driver set to display Small Fonts.
+
+You can show individual icon files using the icons they contain by adding "ICO" to the list of search extensions in the File System Properties dialog.  But remember that icons take up memory, so avoid using this feature for hundreds of icons at once.
+
+You shouldn't leave *.ICO files in Calmira's home directory unless they are intended to show documents or built-in objects.  Otherwise, they will simply clutter Calmira's resource lists.
+
+You can replace almost all of Calmira's built-in icons with your own selection.  See the help topic on customising icons.
+
+You can assign your own  icons to use for document files, which overrides the icons specified in the registry.
+
+You can replace many of Calmira's built-in bitmaps with your own graphics for the Taskbar, Start Menu and Explorer.  See the help topic on customising bitmaps.
+
+You can choose descriptive names for your disk drives by adding entries to the [Drives] section.  For example, you could replace the standard Floppy (A:) with 3½" Floppy.
+
+You can choose descriptive names for icon window captions by adding entries to the [Window Captions] section.  This is useful if you use folders as program groups to store aliases of your applications.
+
+
+; Miscellaneous
+
+Whenever you see an edit box in a dialog that requires a file or folder name, you can double click on the edit box to open a browser dialog.
+
+You can drag files from other programs (e.g. File Manager) into icon windows, shortcuts or aliases.  Calmira will ask you whether to copy or move the files.  Note that this feature does not work with file descriptions.
+
+To view directory listings copied to the Clipboard, you should use the OEM Text view to line up the columns.
+
+You might find it interesting to look through Calmira's source.  Unzip the source archives, and browse the *.PAS files with a text editor.  Some of it is surprisingly readable, even if you don't know how to program!
+
+You should backup CALMIRA.INI and START.INI along with your data files, so that you don't need to spend time re-arranging your desktop and setting options if the INI files are damaged.
+
+You can add the string "www." to the URLPrefixes setting in the [Internet] section.  This allows you to type in a web page address into the Run Program dialog without requiring an http:// prefix.
+
+You can double click on a setting in the Advanced page of the System Properties dialog to edit the item.
+
+You can limit the number of entries stored in history lists by setting the MaxHistorySize option in the [Calmira] section.
+
+You can make your Windows 3.1 menus look more like Windows 95 by setting the background to grey, the highlight to blue and the highlight text to white.
+
+You can change the coarseness of the grid used by the "Line up Icons" desktop command, by setting DeskGridX and DeskGridY in the [Desktop] section.
+
+You can change the font which Calmira uses for icon windows, the Explorer tree and the Computer window.  Edit the FontName, FontSize and FontStyle entries in the [Display] section.
+
+You can make Calmira load and save its INI files in the Windows directory.  Create a [Calmira] section in your Win.ini file and add the setting LoadFromWindir=1.
+
+You can change the way that the List View's miniature icons are drawn by modifying the IconStretchMode setting in the [Display] section.  The pre-set value usually gives best results, though.
+
+You can add file type definitions for the File Properties dialog by editing the [File Types] section.  Calmira uses these descriptions for files which do not have a suitable registry entry.
+
+You can adjust the automatic sizing of icon windows by editing the [Layouts] section, to determine how many rows and columns are used for each range of icons.  See the help topic on Miscellaneous Settings for more details.
+
+You can change the font used for the Taskbar by editing the FontName property in the [Taskbar] section.
+
+You can control the position of minimised icons above the Taskbar by adjusting the MinAppHeight setting in the [Taskbar] section.  Use this if some icon captions are hidden behind the bar.
+
+You can adjust the delay before popup hints appear over Taskbar buttons by setting the HintDelay line in the [Taskbar] section.
+
+You can change the format of the Taskbar's time and date display using the 24HourFormat, 12HourFormat and FullDateTime settings in the [Taskbar] section.  See the Miscellaneous Settings topic for details.
+
+You can double click on the Taskbar's clock to set the date and time.
+
+You can change the ClockAdjust setting in the [Taskbar] section to use a different utility for setting the date and time.
+
+You can assign sounds to certain events in Calmira by specifying WAV files in the [Sounds] section.  See the Miscellaneous Settings topic for details.  These sound events only affect windows owned by Calmira.
+
+You can change the font used for the Start Menu by editing the FontName and FontSize settings in the [Start menu] section.
+
+You can change the font and caption of the Start button by editing the FontName, FontSize, FontStyle and Caption settings in the [Start button] section.
+
+You can hide the Start button by moving it off the screen.  Set the Left value in the [Start button] section to a suitable negative number.
+
+You can change the name of the hidden file used to store file descriptions by assigning a filename to the DescriptionFile settings in the [File System] section.
+
+You can adjust the width used for descriptions in the list view by setting the DescriptionWidth option in the [File System] section.
+
+You can adjust the spacing between columns in the list view by changing the ColumnPadding setting in the [File System] section.
+
+You can choose the number of decimal places to display for file sizes within the Kilobyte range.  Assign a value to the ListKBDecimals setting in the [File System] section.  This option only affects the list view in icon windows.
+
+You can change the sections that appear in the Advanced tab page of the System Properties dialog.  Edit the [Advanced] section by following the instructions in the Miscellaneous Settings topic.
+
+The [History Lists] section contains the items that appear in the System Properties dialog.  You can add other section names to allow them to be cleared by pressing the trash button in the dialog, for example, the [Window Positions] section.
+
+You can double click on radio buttons and listboxes in many dialog boxes instead of pressing the OK button.
+
+To see how much disk space is free, use your right mouse button to click on the icon for the drive in the Computer, and then choose Properties.  You can also show free space by right clicking on the left status bar label of an icon window.
+
+When a folder is open, you can press Backspace to open a folder one level higher.
+
+You can click your right mouse button anywhere to see a menu of available commands.
+
+
+; Shutdown
+
+You should use the Restart Windows feature from the Shutdown dialog from time to time.  This restores resources, frees memory, generally cleans up many problems left by bugs, and prevent Windows from crashing.  It's quicker than exiting and running WIN.
+
+You can double click on one the radio buttons in the Shutdown dialog instead of selecting it and pressing OK.
+
+You can quickly swap the Windows shell between Program Manager and Calmira by double clicking the icon in the Shutdown dialog.
+
+
+; Help
+
+Most of Calmira's help file is best viewed in a window about 500 pixels wide.
+
+If you want to print the whole help file in one go, you can extract the source RTF (rich text format) file from SOURCE.ZIP/HELP.ZIP and print it from a compatible word processor.
+
+To view the entire list of "Tip of the Day" entries, you can open the TIPS.TXT file in a word-processor or utility which supports word wrap.
+
+You can obtain context sensitive help from most windows by pressing F1.
+
+You can browse the all help file topics in order using the << and >> buttons.
+
+You can find the latest Calmira updates at the home page http://www.calmira.org.
+
+You can edit the TIPS.TXT file to display your own messages.
+
+
+; Keyboard
+
+You can bring up any window and run any program with the press of a key...look in the help file for details on assigning hot-keys.
+
+You can make the Start Menu popup by pressing a hot-key combination -- the menu has a pre-defined caption of "Start".  Look in the help file for more details on hot-keys.
+
+
+; "Fun and inspirational tips"
+
+Programming-related T-shirts rarely make a positive fashion statement.
+
+You should never dive into shark-infested waters.
+
+It's never too late to learn how to use the Macintosh.
+
+For a stable operating system, check out http://www.linux.org.
+
+
+; File System
+
+The Confirmation list box in the File System Properties dialog lets you fine-tune Calmira's prompts when you copy or move files.  So you can make some adjustments if you find that Calmira is asking too many questions.
+
+When Calmira is reading a directory for an icon window or the Explorer tree, you can stop the operation by pressing the Escape key.
+
+You can turn off the miniature icons for Small Icon and List View modes to make Calmira draw the graphics much more quickly.
+
+To make drag and drop easier, you can turn off the option to allow files to be dropped into programs within icon windows (File System Properties dialog).  This will cause objects dropped over programs to be targeted at the window instead.
+
+You can assign a disk utility from the File System Properties dialog, to let you format or check disks when you click on the icon in the Disk Properties dialog.
+
+Calmira performs most file operations in the background so you can use the Taskbar to switch to another program while your files are being copied or moved.
+
+You can set options to show or hide the three-letter filename extensions, from the File System Properties dialog box.
+
+You can associate a file with a program by selecting the file and choosing Properties from its popup menu.  The Association tab page lets you link to an existing registry entry or another program.
+
+
+; File Properties
+
+You can use the File Properties dialog to associate a file with a program.  The association takes effect immediately for launching viewers, but the icons will only be updated when you restart Calmira.
+
+You can find out which program will be used to open a document when you double click on it.  Select the icon, choose Properties from the popup menu, then select the Association tab page.
+
+In the File Properties dialog, you can copy text from the labels to the clipboard.  Click on a label, drag the highlight across it, then press Ctrl+C.
+
+
+; Explorer tree
+
+You can speed up navigation through the Explorer tree by turning off the automatically updating file pane.  Right click on the tree and uncheck the "Show file window" menu item.
+
+You can open an icon window independent from the Explorer tree by right clicking on a folder in the tree and choosing Open in New Window from the popup menu.
+
+When folders are added, deleted or moved, you may need to refresh the Explorer tree by pressing F5 or choosing Refresh from the popup menu.
+
+You can control the number of columns shown in the Explorer tree's file window by setting FilePaneCols in the [Desktop] section.
+
+You can choose to close or keep open the Explorer tree's file window along with the tree window.  Look in the Desktop Properties dialog.
+
+You can change the graphics used in the Explorer tree by creating a file named Explrico.bmp.  See the help file topic on customising bitmaps for more details.
+
+You can expand or collapse a folder node in the Explorer tree without updating the contents of the file pane by clicking on the '+' or '-' symbol.
+
+You can jump to the next or previous folder of the same level in the Explorer tree by pressing Ctrl+Up and Ctrl+Down.  This lets you quickly bypass expanded branches.
+
+You can stop the Explorer tree from updating its file pane by pressing Ctrl+W and then move around the tree without losing the current file display.
+
+You can open an independent floating window from the Explorer tree by choosing Open New Window from the popup menu, or by pressing Ctrl+Enter.
+
+You can press Ctrl+Left in the Explorer tree to jump to the parent node of the current folder.

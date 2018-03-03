@@ -1,0 +1,21 @@
+CALMIRA.EXE The main program
+CALMIRA.HLP The help file
+CALMIRA.RLE Windows startup screen
+CTASKMAN.EXE Launches the Task Manager
+COUNTTIP.EXE Counts number of tips in TIPS.TXT
+DIREXIST.EXE A small DOS program to detect directories
+DOSRUN.EXE Helper for DOS session programs
+EXPLORER.EXE Launches the Explorer
+SHOWDESK.EXE Makes the desktop visible
+SCRNSAVE.EXE Invokes the default screensaver
+FILE_ID.DIZ Information for vendors
+LICENSE.TXT The GNU General Public License
+README.TXT The latest documentation updates
+SOURCE.URL Download the source to Calmira
+START.BAT Runs Windows programs from a DOS prompt
+TIPS.TXT Contains tips for the Tip of the Day dialog
+W95ICONS.DLL Contains icons to customize Calmira
+wndhooks.dll Contains low-level functions used by Calmira
+START.INI Stores Start Menu data
+CALMIRA.INI Stores the main program settings
+DESCRIPT.ION 4DOS description file

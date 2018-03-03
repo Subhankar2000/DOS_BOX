@@ -1,0 +1,41 @@
+***  Installation Started 03/30/10 23:07  ***
+Title: Visual Basic Runtime Modules Installation
+Source: C:\UPDATEW\3\VB40016A\VB40016A.EXE
+Version: Following file not copied.
+ File Overwrite: C:\WINDOWS\SYSTEM\OLE2.DLL
+Version: Following file not copied.
+ File Overwrite: C:\WINDOWS\SYSTEM\TYPELIB.DLL
+Version: Following file not copied.
+ File Overwrite: C:\WINDOWS\SYSTEM\OLE2PROX.DLL
+Version: Following file not copied.
+ File Overwrite: C:\WINDOWS\SYSTEM\OLE2NLS.DLL
+Version: Following file not copied.
+ File Overwrite: C:\WINDOWS\SYSTEM\OLE2DISP.DLL
+File Overwrite: C:\WINDOWS\SYSTEM\OLE2CONV.DLL
+File Overwrite: C:\WINDOWS\SYSTEM\STORAGE.DLL
+Version: Following file not copied.
+ File Overwrite: C:\WINDOWS\SYSTEM\COMPOBJ.DLL
+Date/Time: Following file not copied.
+ File Copy: C:\WINDOWS\SYSTEM\STDOLE.TLB
+File Copy: C:\WINDOWS\SYSTEM\SCP.DLL
+Date/Time: Following file not copied.
+ File Copy: C:\WINDOWS\SYSTEM\OLE2.REG
+File Copy: C:\WINDOWS\SYSTEM\VB40016.DLL
+File Copy: C:\WINDOWS\SYSTEM\STKIT416.DLL
+File Copy: C:\WINDOWS\SYSTEM\VAEN2.DLL
+File Copy: C:\WINDOWS\SYSTEM\VAEN21.OLB
+File Copy: C:\WINDOWS\SYSTEM\CTL3DV2.DLL
+File Copy: C:\WINDOWS\SYSTEM\OC25.DLL
+File Copy: C:\WINDOWS\SYSTEM\COMDLG16.OCX
+Made Dir: C:\WINDOWS\NPCommon
+File Copy: C:\WINDOWS\NPCommon\freeweb.url
+File Copy: C:\WINDOWS\NPCommon\NetProds.url
+File Copy: C:\WINDOWS\NPCommon\unVB416.exe
+Icon Group: Grafix NetProducts
+Icon Name: Free Web Hosting Info!
+Icon Cmd: C:\WINDOWS\NPCommon\freeweb.url
+Icon Group: Grafix NetProducts
+Icon Name: NetProducts Info!
+Icon Cmd: C:\WINDOWS\NPCommon\NetProds.url
+Self-Register: C:\WINDOWS\SYSTEM\OC25.DLL
+Self-Register: C:\WINDOWS\SYSTEM\COMDLG16.OCX

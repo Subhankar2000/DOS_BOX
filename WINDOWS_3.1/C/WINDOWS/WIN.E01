@@ -1,0 +1,273 @@
+[windows]
+spooler=yes
+load=
+run=runonc16.exe
+Beep=Yes
+NullPort=None
+BorderWidth=3
+CursorBlinkRate=530
+DoubleClickSpeed=452
+Programs=com exe bat pif
+Documents=
+DeviceNotSelectedTimeout=15
+TransmissionRetryTimeout=45
+KeyboardDelay=2
+KeyboardSpeed=31
+ScreenSaveActive=0
+ScreenSaveTimeOut=120
+CoolSwitch=1
+MouseThreshold1=4
+MouseThreshold2=0
+MouseSpeed=1
+
+[Desktop]
+Pattern=(None)
+TileWallPaper=1
+GridGranularity=0
+IconSpacing=75
+WallPaper=rivets.bmp
+
+[Extensions]
+crd=cardfile.exe ^.crd
+trm=terminal.exe ^.trm
+txt=notepad.exe ^.txt
+ini=notepad.exe ^.ini
+pcx=pbrush.exe ^.pcx
+bmp=pbrush.exe ^.bmp
+wri=write.exe ^.wri
+rec=recorder.exe ^.rec
+hlp=winhelp.exe ^.hlp
+mmf=msmail.exe /f ^.mmf
+bop=bop.exe  ^.bop
+mov=C:\WINDOWS\PLAYER.EXE ^.mov
+pic=C:\WINDOWS\VIEWER.EXE ^.pic
+CPP=notepad.exe ^.CPP
+ICO=pbrush.exe ^.ICO
+BAS=notepad.exe ^.BAS
+JPG=pbrush.exe ^.JPG
+pot=C:\PPTVIEW\PPTVIEW.EXE ^.pot
+ppt=C:\PPTVIEW\PPTVIEW.EXE ^.ppt
+pps=C:\PPTVIEW\PPTVIEW.EXE ^.pps
+lst=C:\PPTVIEW\PPTVIEW.DLL ^.lst
+
+[intl]
+sLanguage=enu
+sCountry=United States
+iCountry=1
+iDate=1
+iTime=0
+iTLZero=0
+iCurrency=0
+iCurrDigits=2
+iNegCurr=0
+iLzero=1
+iDigits=2
+iMeasure=1
+s1159=AM
+s2359=PM
+sCurrency=$
+sThousand=,
+sDecimal=.
+sDate=/
+sTime=:
+sList=,
+sShortDate=d/M/yy
+sLongDate=dddd', 'MMMM' 'dd', 'yyyy
+
+[ports]
+; A line with [filename].PRN followed by an equal sign causes
+; [filename] to appear in the Control Panel's Printer Configuration dialog
+; box. A printer connected to [filename] directs its output into this file.
+; The file must be on one of your local drives; you cannot print to a network
+; file.
+LPT1:=
+LPT2:=
+LPT3:=
+COM1:=9600,n,8,1,x
+COM2:=9600,n,8,1,x
+COM3:=9600,n,8,1,x
+COM4:=9600,n,8,1,x
+EPT:=
+FILE:=
+LPT1.DOS=
+LPT2.DOS=
+FAX:=
+
+[FontSubstitutes]
+Helv=MS Sans Serif
+Tms Rmn=MS Serif
+Times=Times New Roman
+Helvetica=Arial
+
+[TrueType]
+
+[mci extensions]
+wav=waveaudio
+mid=sequencer
+rmi=sequencer
+avi=AVIVideo
+mov=QTWVideo
+pic=QTWVideo
+jpg=QTWVideo
+
+[Compatibility]
+NOTSHELL=0x0001
+WPWINFIL=0x0006
+CCMAIL=0x0008
+AMIPRO=0x0010
+REM=0x8022
+PIXIE=0x0040
+CP=0x0040
+JW=0x42080
+TME=0x0100
+VB=0x0200
+WIN2WRS=0x1210
+PACKRAT=0x0800
+VISION=0x0040
+MCOURIER=0x0800
+_BNOTES=0x24000
+MILESV3=0x1000
+PM4=0x2000
+DESIGNER=0x2000
+PLANNER=0x2000
+DRAW=0x2000
+WINSIM=0x2000
+CHARISMA=0x2000
+PR2=0x2000
+PLUS=0x1000
+ED=0x00010000
+APORIA=0x0100
+EXCEL=0x1000
+GUIDE=0x1000
+NETSET2=0x0100
+W4GL=0x4000
+W4GLR=0x4000
+TURBOTAX=0x00080000
+
+[winsetup]
+source_disk_path=A:\
+
+[fonts]
+Modern (Plotter)=MODERN.FON
+Script (Plotter)=SCRIPT.FON
+Roman (Plotter)=ROMAN.FON
+Arial (TrueType)=ARIAL.FOT
+Arial Bold (TrueType)=ARIALBD.FOT
+Arial Bold Italic (TrueType)=ARIALBI.FOT
+Arial Italic (TrueType)=ARIALI.FOT
+Courier New (TrueType)=COUR.FOT
+Courier New Bold (TrueType)=COURBD.FOT
+Courier New Bold Italic (TrueType)=COURBI.FOT
+Courier New Italic (TrueType)=COURI.FOT
+Times New Roman (TrueType)=TIMES.FOT
+Times New Roman Bold (TrueType)=TIMESBD.FOT
+Times New Roman Bold Italic (TrueType)=TIMESBI.FOT
+Times New Roman Italic (TrueType)=TIMESI.FOT
+WingDings (TrueType)=WINGDING.FOT
+Symbol (TrueType)=SYMBOL.FOT
+MS Sans Serif 8,10,12,14,18,24 (VGA res)=SSERIFE.FON
+Courier 10,12,15 (VGA res)=COURE.FON
+MS Serif 8,10,12,14,18,24 (VGA res)=SERIFE.FON
+Symbol 8,10,12,14,18,24 (VGA res)=SYMBOLE.FON
+Small Fonts (VGA res)=SMALLE.FON
+
+[embedding]
+SoundRec=Sound,Sound,SoundRec.exe,picture
+Package=Package,Package,packager.exe,picture
+PBrush=Paintbrush Picture,Paintbrush Picture,pbrush.exe,picture
+MPlayer=Media Clip,Media Clip,mplayer.exe,picture
+PlayerFrameClass=QuickTime Movie,QuickTime Movie,c:\windows\player.exe,picture
+ViewerFrameClass=QuickTime Picture,QuickTime Picture,c:\windows\viewer.exe,picture
+
+[drawdib]
+vga.drv 640x480x4(0)=1,0,0,0
+S3TRIO.DRV 640x480x8(5)=19,0,0,0
+
+[Windows Help]
+H_WindowPosition=[213,160,213,160,0]
+M_WindowPosition=[-4,-4,648,460,1]
+
+[WinG]
+S3TRIO.DRV640x480x8(0,12)v1.69.2.0-3C7B-1.0.0.37=ECHGECHGECHGECHGDDFFDDFFDDFFDDFFZZZZZZZZZZZZZZZZDDFGDGFGDDFFDDFG1F
+S3TRIO.DRV1024x768x8(0,12)v1.69.2.0-3C7B-1.0.0.37=ECHGECHGECHGECHGDDFFDDFFDDFFDDFFZZZZZZZZZZZZZZZZDDFGDGFGDDFFDDFG1F
+S3TRIO.DRV640x480x8(0,12)v1.69.2.0-483C-1.0.0.37=ECHGECHGECHGECHGDDFFDDFFDDFFDDFFZZZZZZZZZZZZZZZZDDFGDGFGDDFFDDFG1F
+S3TRIO.DRV800x600x16(1,12)v1.69.2.0-483C-1.0.0.37N=ZZCCZZIHZZCCZZIHZZDDZZGGZZDDZZGGZZZZZZZZZZZZZZZZZZDHZZGHZZDDZZDH0F
+
+[colors]
+Background=0 64 128
+AppWorkspace=192 192 192
+Window=255 255 255
+WindowText=0 0 0
+Menu=255 255 255
+MenuText=0 0 0
+ActiveTitle=0 0 128
+InactiveTitle=192 192 192
+TitleText=255 255 255
+ActiveBorder=192 192 192
+InactiveBorder=192 192 192
+WindowFrame=0 0 0
+Scrollbar=192 192 192
+ButtonFace=192 192 192
+ButtonShadow=128 128 128
+ButtonText=0 0 0
+GrayText=192 192 192
+Hilight=0 0 128
+HilightText=255 255 255
+InactiveTitleText=0 0 0
+ButtonHilight=255 255 255
+
+[BOP]
+forcemono=off
+screensave=on
+click=on
+
+[Cardfile]
+ValidateFileWrite=1
+
+[SciCalc]
+layout=0
+
+[Terminal]
+Port=None
+
+[PrinterPorts]
+Microsoft At Work Fax=EFAXDRV,FAX:,15,45
+
+[devices]
+Microsoft At Work Fax=EFAXDRV,FAX:
+
+[Software by Design]
+Screen Loupe for Windows 95/NT=v2.4
+
+[sounds]
+SystemAsterisk=C:\WINDOWS\RINGIN.WAV,Asterisk
+SystemHand=,Critical Stop
+SystemDefault=,Default Beep
+SystemExclamation=C:\WINDOWS\CHIMES.WAV,Exclamation
+RingIn=,Incoming Call
+RingOut=,Outgoing Call
+SystemQuestion=C:\WINDOWS\CHIMES.WAV,Question
+SystemExit=C:\WINDOWS\WINDOW~2.WAV,Windows Exit
+SystemStart=C:\WINDOWS\WINDOW~1.WAV,Windows Start
+
+[MSAPPS]
+MSAPPS=C:\WINDOWS\MSAPPS
+GRPHFLT=C:\WINDOWS\MSAPPS\GRPHFLT
+
+[MS Graphic Import Filters]
+Enhanced Metafile(.EMF)=C:\WINDOWS\MSAPPS\GRPHFLT\EMFIMP.FLT,EMF
+Macintosh PICT Filter(.PCT)=C:\WINDOWS\MSAPPS\GRPHFLT\PICTIMP.FLT,PCT
+JPEG File Interchange Format (.JPG)=C:\WINDOWS\MSAPPS\GRPHFLT\JPEGIMP.FLT,JPG
+Portable Network Graphics(.PNG)=C:\WINDOWS\MSAPPS\GRPHFLT\PNGIMP.FLT,PNG
+
+[MS Setup (ACME) Table Files]
+PPTVIEW.EXE@v97.11.11.01=C:\PPTVIEW\trans16.stf
+
+[ActiveSetup5]
+SuState=013200013200
+Unattended=0
+UnpackVersion=MS:00327680 LS:59836575
+
+[SSPI]
+SecurityProviders=msapsp16.dll,security.dll,msnssp16.dll
+
